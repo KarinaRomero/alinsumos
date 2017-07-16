@@ -1,0 +1,10 @@
+:host /deep/ .jumbotron {
+  background: url("assets/images/wheat-header.jpeg");
+  color: #fff;
+  padding: 100px 25px;
+  font-family: Montserrat, sans-serif;
+  height: 90vh; }
+  :host /deep/ .jumbotron .title-text {
+    margin: 10% auto; }
+
+/*# sourceMappingURL=header.component.css.map */
