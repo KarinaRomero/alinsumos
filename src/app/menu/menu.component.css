@@ -1,9 +1,9 @@
 .logo-small {
-  color: #f4511e;
+  color: #884F20;
   font-size: 50px; }
 
 .logo {
-  color: #f4511e;
+  color: #884F20;
   font-size: 200px; }
 
 .navbar {
@@ -15,15 +15,18 @@
   line-height: 1.42857143 !important;
   letter-spacing: 4px;
   border-radius: 0;
-  font-family: Montserrat, sans-serif; }
+  font-weight: 700; }
   .navbar .navbar-brand {
-    color: #fff !important; }
+    color: #fff !important;
+    padding: 10px 0; }
   .navbar li a {
     color: #fff !important;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    text-shadow: 2px 3px 4px #000;
+    font-size: 14px; }
   .navbar li :hover, .navbar li :active {
-    color: #f4511e !important;
-    background-color: #fff !important; }
+    color: #884F20 !important;
+    background-color: rgba(255, 255, 255, 0.4) !important; }
 
 .navbar-default .navbar-toggle {
   border-color: transparent;

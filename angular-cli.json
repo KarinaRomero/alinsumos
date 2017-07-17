@@ -18,7 +18,8 @@
       "tsconfig": "tsconfig.json",
       "prefix": "al",
       "styles": [
-        "styles.css"
+        "assets/styles/_general-vars.scss",
+        "styles.scss"
       ],
       "scripts": [],
       "environments": {
