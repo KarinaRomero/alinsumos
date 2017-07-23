@@ -21,7 +21,9 @@
         "assets/styles/_general-vars.scss",
         "styles.scss"
       ],
-      "scripts": [],
+      "scripts": [
+        "../node_modules/typed.js/lib/typed.js"
+      ],
       "environments": {
         "source": "environments/environment.ts",
         "dev": "environments/environment.ts",

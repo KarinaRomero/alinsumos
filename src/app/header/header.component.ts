@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
+
+declare var Typed;
 
 @Component({
   selector: 'al-header',
@@ -7,9 +9,19 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
-  constructor() { }
+  constructor() {
+  }
 
   ngOnInit() {
+    const typed = new Typed('#slogan-text',
+      {
+        stringsElement: '#typed-strings',
+        loop: false,
+        loopCount: Infinity,
+        typeSpeed: 40,
+        showCursor: false
+      }
+    );
   }
 
 }
