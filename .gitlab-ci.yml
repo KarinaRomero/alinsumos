@@ -11,6 +11,7 @@ before_script:
   - npm install -g angular-cli
 stages:
   - deploy
+  - pages
 
 deploy:
   stage: deploy
