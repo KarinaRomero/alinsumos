@@ -3,33 +3,28 @@
     <div class="col-xs-12 col-md-8">
       <h2>Acerca de Alinsumos</h2><br>
       <h4>
-        ALINSUMOS, es una empresa joven, que nace hace muy pocos años en el Noroeste del país, con un entrañable cariño
-        por nuestro México, comprometidos con su desarrollo en la economía primaria, directamente en la agroindustria,
-        tenemos muy claro en nuestra VISION, que debemos crear crecimiento para beneficio de productores y consumidores,
-        coadyuvando en su desarrollo y así sumarnos a la solución de la cadena alimenticia, especialmente Granos.
+        ALINSUMOS, es una empresa joven, que nace hace muy pocos años en el Noroeste del país, con un entrañable cariño por nuestro
+        México, comprometidos con su desarrollo en la economía primaria, directamente en la agroindustria, tenemos muy claro
+        en nuestra VISION, que debemos crear crecimiento para beneficio de productores y consumidores, coadyuvando en su
+        desarrollo y así sumarnos a la solución de la cadena alimenticia, especialmente Granos.
       </h4>
       <br/>
-      <p>Somos un equipo joven, emprendedor, preparado, profesional, actualizado y con visión de largo plazo. En cada
-        contacto de negocios con productores, encontrarán en nosotros a un equipo confiable para fincar relaciones de
-        largo plazo, en el concepto de GANAR-GANAR.
-        Estamos seguros que el compromiso, y la búsqueda de soluciones que apoyen al productor, la encontrarán siempre
-        en nuestro equipo de trabajo.
+      <p>Somos un equipo joven, emprendedor, preparado, profesional, actualizado y con visión de largo plazo. En cada contacto
+        de negocios con productores, encontrarán en nosotros a un equipo confiable para fincar relaciones de largo plazo,
+        en el concepto de GANAR-GANAR. Estamos seguros que el compromiso, y la búsqueda de soluciones que apoyen al productor,
+        la encontrarán siempre en nuestro equipo de trabajo. Las utilidades que se obtienen de este ejercicio emprendedor,
+        se re-invierten en infraestructura y nuevos servicios para que todos crezcamos y pongamos nuestro granito de arena
+        al desarrollo de este nuestro México, país rico por su gente y sus recursos. Tenga por seguro que en ALINSUMOS, somos
+        confiables, comprometidos y muy trabajadores.
 
-        Las utilidades que se obtienen de este ejercicio emprendedor, se re-invierten en infraestructura y nuevos
-        servicios para que todos crezcamos y pongamos nuestro granito de arena al desarrollo de este nuestro México,
-        país rico por su gente y sus recursos.
-        Tenga por seguro que en ALINSUMOS, somos confiables, comprometidos y muy trabajadores.
-
-        <br/>
-        Muy Cordialmente
+        <br/> Muy Cordialmente
       </p>
       <br>
     </div>
     <div class="col-xs-6 col-md-4 hidden-xs">
       <div class="embed-responsive embed-responsive-4by3">
         <video class="embed-responsive-item" controls>
-          <source src="assets/video/director-message.mp4" type="video/mp4">
-          Your browser does not support the video tag.
+          <source src="assets/video/director-message.mp4" type="video/mp4"> Your browser does not support the video tag.
         </video>
       </div>
     </div>
@@ -39,15 +34,14 @@
 <div class="container-fluid bg-grey">
   <div class="row">
     <div class="col-sm-4">
-      <img src="assets/images/tolva_llenado.jpg" class="img-responsive img-rounded" width="400px"/>
+      <img src="assets/images/tolva_llenado.jpg" class="img-responsive img-rounded" width="400px" />
     </div>
     <div class="col-sm-8">
       <h2>Nuestros Valores</h2><br>
-      <h4><strong>MISIÓN:</strong> Ser la mejor opción de los productores agropecuarios en financiamiento,
-        comercialización y darles valor agregado a sus productos. Obtener un crecimiento profesional y humano de todos
-        los integrantes de Alinsumos.</h4><br>
-      <p><strong>VISIÓN:</strong> Ser una empresa lider en el noroeste y occidente de México en la actividad
-        Agroindustial.</p>
+      <h4><strong>MISIÓN:</strong> Ser la mejor opción de los productores agropecuarios en financiamiento, comercialización y
+        darles valor agregado a sus productos. Obtener un crecimiento profesional y humano de todos los integrantes de Alinsumos.</h4><br>
+      <p><strong>VISIÓN:</strong> Ser una empresa lider en el noroeste y occidente de México en la actividad Agroindustial.
+      </p>
       <p><strong>OBJETIVOS:</strong></p>
       <div>
         <ul>
@@ -62,14 +56,14 @@
           <li><strong>Compromiso:</strong> Obligación contraída por medio de acuerdo, promesa o contrato."</li>
           <li><strong>Honestidad:</strong> Compostura, decencia y moderación en la persona, acciones y palabras."</li>
           <li><strong>Lealtad:</strong> Cumplimiento de las leyes y el honor."</li>
-          <li><strong>Participación:</strong> La toma o recepción de parte de alguna situación, compartir ideas,
-            opiniones, entre otras."
+          <li><strong>Participación:</strong> La toma o recepción de parte de alguna situación, compartir ideas, opiniones, entre
+            otras."
           </li>
-          <li><strong>Espiritu de servicio:</strong> Estar orientados a resolver las actividades propias y de los
-            compañeros para cumplir con las metas establecidas."
+          <li><strong>Espiritu de servicio:</strong> Estar orientados a resolver las actividades propias y de los compañeros
+            para cumplir con las metas establecidas."
           </li>
-          <li><strong>Trabajo en equipo:</strong> La serie de estrategias, procedimientos y metodologías que utiliza un
-            grupo humano para lograr las metas propuestas."
+          <li><strong>Trabajo en equipo:</strong> La serie de estrategias, procedimientos y metodologías que utiliza un grupo
+            humano para lograr las metas propuestas."
           </li>
         </ul>
       </div>
@@ -82,144 +76,18 @@
   <h4>Ofrecemos</h4>
   <br>
   <div class="row">
-    <div class="col-sm-6 col-md-4">
+    <div class="col-sm-6 col-md-4" *ngFor="let service of services.servicesInformationArray">
       <div class="thumbnail">
-        <img src="assets/images/pasillo.jpg" alt="">
+        <img src="{{service.image}}" alt="">
         <div class="caption">
-          <h3>ParaFinanciera</h3>
-          <p>La Parafinanciera ALIFIN tiene como Principal Objetivo el gestionar, obtener y otorgar financiamiento
-            agrícola, estamos operando desde hace varios años con este esquema apoyando a nuestros productores del valle
-            del Yaqui y Mayo, habilitando más de 7000 hectáreas de Trigo, Maíz, Cártamo, Sorgo, Algodón, etc.</p>
-          <p>
-            <a href="#" class="btn btn-default" role="button">Ver más</a>
-          </p>
-        </div>
-      </div>
-    </div>
-    <div class="col-sm-6 col-md-4">
-      <div class="thumbnail">
-        <img src="assets/images/cotton.jpg" alt="">
-        <div class="caption">
-          <h3>Despepitadora de Algodón</h3>
-          <p>En Alinsumos estamos siempre al pendiente de las necesidades de nuestros productores, razón por la cual
-            ponemos en marcha la planta despepitadora de algodón, ubicada en calle 600 y 3 del valle del yaqui cuenta
-            con dos plantas una Murray 1080 y una Murray 690 con capacidad de 350 pacas diarias, con la cual se dará
-            servicio a más de 4000 has.</p>
-          <p>
-            <a href="#" class="btn btn-default" role="button">Ver más</a>
-          </p>
-        </div>
-      </div>
-    </div>
-    <div class="col-sm-6 col-md-4">
-      <div class="thumbnail">
-        <img src="assets/images/trigo_granos.jpg" alt="">
-        <div class="caption">
-          <h3>Pignoración de Granos</h3>
-          <p>Se refiere al término pignorar que significa "dar o dejar en prenda". Es cuando se deposita temporalmente
-            la totalidad o una parte de la cosecha y se obtiene un documento expedido por un almacén general de depósito
-            que certifica la existencia del grano, mediante el cual, el productor esta en posibilidad de obtener un
-            crédito prendario con un agente financiero.</p>
-          <p>
-            <a href="#" class="btn btn-default" role="button">Ver más</a>
-          </p>
-        </div>
-      </div>
-    </div>
-    <div class="col-sm-6 col-md-4">
-      <div class="thumbnail">
-        <img src="assets/images/secado_grano.jpg" alt="">
-        <div class="caption">
-          <h3>Secado de Granos</h3>
-          <p>Los granos, como es bien conocido, no pueden conservarse almacenados si no están secos. La cuestión es
-            determinar cuándo un grano se considera "seco". Como término general, para los granos como Maíz y Sorgo, una
-            humedad del 14% se considera el límite para estimarlo como "seco". En el caso del Trigo Cristalino y
-            Harinero 12 % se considera su límite.</p>
-          <p>
-            <a href="#" class="btn btn-default" role="button">Ver más</a>
-          </p>
-        </div>
-      </div>
-    </div>
-    <div class="col-sm-6 col-md-4">
-      <div class="thumbnail">
-        <img src="assets/images/transporte.jpg" alt="">
-        <div class="caption">
-          <h3>Transporte de mercancía</h3>
-          <p>En Alinsumos sabemos la importancia de trasladar las mercancías en tiempo y forma a los destinos que
-            nuestros clientes dispongan, por ello contamos con una flota de camiones moderna y funcional, contando con
-            Cajas secas y refrigeradas, jaulas y camiones torton, garantizando un servicio de calidad y sin demoras.</p>
-          <p>
-            <a href="#" class="btn btn-default" role="button">Ver más</a>
-          </p>
-        </div>
-      </div>
-    </div>
-    <div class="col-sm-6 col-md-4">
-      <div class="thumbnail">
-        <img src="assets/images/maiz_cribado.jpg" alt="">
-        <div class="caption">
-          <h3>Importación de granos</h3>
-          <p>El Comercio Exterior es el intercambio de bienes, servicios y capitales entre diferentes países. Cuando un
-            país necesita ingresar productos se produce la importación, la que es definida como "la introducción legal
-            de mercancía extranjera para su uso o consumo del país".</p>
-          <p>
-            <a href="#" class="btn btn-default" role="button">Ver más</a>
-          </p>
-        </div>
-      </div>
-    </div>
-    <div class="col-sm-6 col-md-4">
-      <div class="thumbnail">
-        <img src="assets/images/silos_costales.jpg" alt="">
-        <div class="caption">
-          <h3>Almacenaje y conservación</h3>
-          <p>El valor económico, alimenticio agrícola e industrial asociado a los granos y semillas requieren de
-            cuidados especiales para garantizar su calidad y esta debe mantenerse durante el tiempo necesario hasta el
-            momento de su uso. El almacenamiento se refiere a la concentración de algún producto o insumo en lugares
-            especialmente diseñados para tal efecto. </p>
-          <p>
+          <h3>{{service.title}}</h3>
+          <p>{{service.content}}<p>
             <a href="#" class="btn btn-default" role="button">Ver más</a>
           </p>
         </div>
       </div>
     </div>
   </div>
-  <!-- <div class="row slideanim">
-    <div class="col-sm-4">
-      <span class="glyphicon glyphicon-off logo-small"></span>
-      <h4>POWER</h4>
-      <p>Lorem ipsum dolor sit amet..</p>
-    </div>
-    <div class="col-sm-4">
-      <span class="glyphicon glyphicon-heart logo-small"></span>
-      <h4>LOVE</h4>
-      <p>Lorem ipsum dolor sit amet..</p>
-    </div>
-    <div class="col-sm-4">
-      <span class="glyphicon glyphicon-lock logo-small"></span>
-      <h4>JOB DONE</h4>
-      <p>Lorem ipsum dolor sit amet..</p>
-    </div>
-  </div>
-  <br><br>
-  <div class="row slideanim">
-    <div class="col-sm-4">
-      <span class="glyphicon glyphicon-leaf logo-small"></span>
-      <h4>GREEN</h4>
-      <p>Lorem ipsum dolor sit amet..</p>
-    </div>
-    <div class="col-sm-4">
-      <span class="glyphicon glyphicon-certificate logo-small"></span>
-      <h4>CERTIFIED</h4>
-      <p>Lorem ipsum dolor sit amet..</p>
-    </div>
-    <div class="col-sm-4">
-      <span class="glyphicon glyphicon-wrench logo-small"></span>
-      <h4 style="color:#303030;">HARD WORK</h4>
-      <p>Lorem ipsum dolor sit amet..</p>
-    </div>
-  </div> -->
 </div>
 
 <div id="portfolio" class="container-fluid text-center bg-grey">
@@ -262,8 +130,8 @@
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
       <div class="item active">
-        <h4>"This company is the best. I am so happy with the
-          result!"<br><span>Michael Roe, Vice President, Comment Box</span></h4>
+        <h4>"This company is the best. I am so happy with the result!"
+          <br><span>Michael Roe, Vice President, Comment Box</span></h4>
       </div>
       <div class="item">
         <h4>"One word... WOW!!"<br><span>John Doe, Salesman, Rep Inc</span></h4>
@@ -394,12 +262,12 @@
       mapTypeId: google.maps.MapTypeId.ROADMAP
     };
     var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
-    var marker = new google.maps.Marker({position: myCenter});
+    var marker = new google.maps.Marker({ position: myCenter });
     marker.setMap(map);
   }
+
 </script>
-<script
-  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
 <!--
 To use this code on your website, get a free API key from Google.
 Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
