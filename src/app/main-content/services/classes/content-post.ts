@@ -6,9 +6,9 @@ export class ContentPost {
   private imagesRoute = 'assets/images/';
 
 
-  constructor(title: string, content: string, image: string) {
+  constructor(title: string, content?: string, image?: string) {
     this.title = title;
-    this.content = content;
-    this.image = this.imagesRoute + image;
+    this.content = content ? content : '';
+    this.image = image ? this.imagesRoute + image : '';
   }
 }
