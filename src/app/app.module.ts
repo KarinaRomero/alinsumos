@@ -16,6 +16,8 @@ import { MainContentComponent } from './main-content/main-content.component';
 import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { ProductsComponent } from './main-content/components/products/products.component';
+import { ContactComponent } from './main-content/components/contact/contact.component';
+import { MapComponent } from './main-content/components/map/map.component';
 
 export function createTranslateLoader(http: Http) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
@@ -31,7 +33,9 @@ export function createTranslateLoader(http: Http) {
     MainContentComponent,
     ServicesComponent,
     ProductsComponent,
-    TruncateTextPipe
+    TruncateTextPipe,
+    ContactComponent,
+    MapComponent
   ],
   imports: [
     BrowserModule,
