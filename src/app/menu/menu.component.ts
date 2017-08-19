@@ -1,7 +1,6 @@
-import {
-  animate, Component, HostListener, Inject, OnInit, state, style, transition, trigger, ViewChild
-} from '@angular/core';
-import {DOCUMENT} from '@angular/platform-browser';
+import { Component, HostListener, Inject, OnInit, ViewChild } from '@angular/core';
+import { DOCUMENT } from '@angular/platform-browser';
+import { trigger, state, style, transition, animate, keyframes } from '@angular/animations';
 
 @Component({
   selector: 'al-menu',
@@ -27,7 +26,7 @@ export class MenuComponent implements OnInit {
   navStatus = 'default';
   navIsFixed = false;
 
-  constructor(@Inject(DOCUMENT) private document: Document) {
+  constructor( @Inject(DOCUMENT) private document: Document) {
   }
 
   ngOnInit() {

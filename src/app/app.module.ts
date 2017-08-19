@@ -3,6 +3,7 @@ import { ProductsInformationService } from './main-content/services/products-inf
 import { ServicesComponent } from './main-content/components/services/services.component';
 import { ServicesInformationService } from './main-content/services/services-information.service';
 import { BrowserModule } from '@angular/platform-browser';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { Http, HttpModule } from '@angular/http';
@@ -39,6 +40,7 @@ export function createTranslateLoader(http: Http) {
   ],
   imports: [
     BrowserModule,
+    BrowserAnimationsModule,
     FormsModule,
     HttpModule,
     TranslateModule.forRoot({
