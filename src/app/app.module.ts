@@ -1,3 +1,6 @@
+import { TruncateTextPipe } from './pipes/truncate-text.pipe';
+import { ProductsInformationService } from './main-content/services/products-information.service';
+import { ServicesComponent } from './main-content/components/services/services.component';
 import { ServicesInformationService } from './main-content/services/services-information.service';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
@@ -12,6 +15,7 @@ import { MainContentComponent } from './main-content/main-content.component';
 
 import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
+import { ProductsComponent } from './main-content/components/products/products.component';
 
 export function createTranslateLoader(http: Http) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
@@ -24,7 +28,10 @@ export function createTranslateLoader(http: Http) {
     HeaderComponent,
     MenuComponent,
     FooterComponent,
-    MainContentComponent
+    MainContentComponent,
+    ServicesComponent,
+    ProductsComponent,
+    TruncateTextPipe
   ],
   imports: [
     BrowserModule,
@@ -38,7 +45,10 @@ export function createTranslateLoader(http: Http) {
       }
     })
   ],
-  providers: [ServicesInformationService],
+  providers: [
+    ServicesInformationService,
+    ProductsInformationService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule {
