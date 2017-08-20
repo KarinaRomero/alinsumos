@@ -1,4 +1,5 @@
-import { Component, HostListener, Inject, OnInit, ViewChild } from '@angular/core';
+import { Router } from '@angular/router';
+import { Component, HostListener, Inject, ViewChild } from '@angular/core';
 import { DOCUMENT } from '@angular/platform-browser';
 import { trigger, state, style, transition, animate, keyframes } from '@angular/animations';
 
@@ -19,18 +20,27 @@ import { trigger, state, style, transition, animate, keyframes } from '@angular/
     ])
   ]
 })
-export class MenuComponent implements OnInit {
+export class MenuComponent {
 
   @ViewChild('nav') navigationBar;
 
   navStatus = 'default';
   navIsFixed = false;
+  navIsOutOfIndex = false;
 
-  constructor( @Inject(DOCUMENT) private document: Document) {
-  }
-
-  ngOnInit() {
-  }
+  constructor(
+    @Inject(DOCUMENT) private document: Document,
+    private router: Router) {
+      this.router.events.subscribe((routerEvents: any) => {
+        console.log(routerEvents.url );
+        if (routerEvents.url.indexOf('#') <= 0) {
+          this.navIsOutOfIndex = true;
+          this.navStatus = 'scrolled';
+        }else {
+          this.navIsOutOfIndex = false;
+        }
+      });
+    }
 
   @HostListener('window:scroll', [])
   onWindowScroll() {
@@ -38,7 +48,7 @@ export class MenuComponent implements OnInit {
     if (number > 400) {
       this.navStatus = 'scrolled';
       this.navIsFixed = true;
-    } else if (this.navIsFixed && number < 10) {
+    } else if (this.navIsFixed && number < 10 && !this.navIsOutOfIndex) {
       this.navStatus = 'default';
       this.navIsFixed = false;
     }
