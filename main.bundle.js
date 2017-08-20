@@ -23,12 +23,12 @@ module.exports = "<al-menu></al-menu>\n<!-- <al-main-content></al-main-content> 
 /***/ "../../../../../src/app/app.component.scss":
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(true);
+exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(false);
 // imports
 
 
 // module
-exports.push([module.i, "", "", {"version":3,"sources":[],"names":[],"mappings":"","file":"app.component.scss","sourceRoot":""}]);
+exports.push([module.i, "", ""]);
 
 // exports
 
@@ -192,12 +192,12 @@ module.exports = "<footer class=\"container-fluid text-center\">\n  <a href=\"#\
 /***/ "../../../../../src/app/footer/footer.component.scss":
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(true);
+exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(false);
 // imports
 
 
 // module
-exports.push([module.i, "", "", {"version":3,"sources":[],"names":[],"mappings":"","file":"footer.component.scss","sourceRoot":""}]);
+exports.push([module.i, "", ""]);
 
 // exports
 
@@ -253,12 +253,12 @@ module.exports = "<div class=\"parallax\">\n  <div class=\"jumbotron text-center
 /***/ "../../../../../src/app/header/header.component.scss":
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(true);
+exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(false);
 // imports
 
 
 // module
-exports.push([module.i, ":host /deep/ .jumbotron {\n  color: #fff;\n  padding: 100px 25px;\n  font-family: Montserrat, sans-serif;\n  height: 100vh;\n  background: none; }\n  :host /deep/ .jumbotron .title-text {\n    margin: 1% auto;\n    text-shadow: 2px 3px 4px #000;\n    font-size: 3.5em; }\n  :host /deep/ .jumbotron .title-elements {\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: vertical;\n    -webkit-box-direction: normal;\n        -ms-flex-direction: column;\n            flex-direction: column; }\n\n.parallax {\n  /* The image used */\n  background-image: url(" + __webpack_require__("../../../../../src/assets/images/corn-header.jpg") + ");\n  /* Full height */\n  height: 100vh;\n  /* Create the parallax scrolling effect */\n  background-attachment: fixed;\n  background-position: center;\n  background-repeat: no-repeat;\n  background-size: cover; }\n", "", {"version":3,"sources":["/Users/bennyfrancodennis/Developer/alinsumos/src/app/header/header.component.scss"],"names":[],"mappings":"AACA;EAEE,YAAW;EACX,oBAAmB;EACnB,oCAAmC;EACnC,cAAa;EACb,iBAAgB,EAYjB;EAlBD;IASI,gBAAe;IACf,8BAA6B;IAC7B,iBAAgB,EACjB;EAZH;IAeI,qBAAa;IAAb,qBAAa;IAAb,cAAa;IACb,6BAAsB;IAAtB,8BAAsB;QAAtB,2BAAsB;YAAtB,uBAAsB,EACvB;;AAIH;EACE,oBAAoB;EACpB,gDAA4D;EAG5D,iBAAiB;EACjB,cAAa;EAEb,0CAA0C;EAC1C,6BAA4B;EAC5B,4BAA2B;EAC3B,6BAA4B;EAC5B,uBAAsB,EACvB","file":"header.component.scss","sourcesContent":["//noinspection ALL\n:host /deep/ .jumbotron {\n  //background: url('assets/images/corn-header.jpg');\n  color: #fff;\n  padding: 100px 25px;\n  font-family: Montserrat, sans-serif;\n  height: 100vh;\n  background: none;\n\n  .title-text {\n    margin: 1% auto;\n    text-shadow: 2px 3px 4px #000;\n    font-size: 3.5em;\n  }\n\n  .title-elements {\n    display: flex;\n    flex-direction: column;\n  }\n}\n\n//noinspection ALL\n.parallax {\n  /* The image used */\n  background-image: url('../../assets/images/corn-header.jpg');\n  //background-image: url('assets/images/trigo_manos.jpg');\n\n  /* Full height */\n  height: 100vh;\n\n  /* Create the parallax scrolling effect */\n  background-attachment: fixed;\n  background-position: center;\n  background-repeat: no-repeat;\n  background-size: cover;\n}\n"],"sourceRoot":""}]);
+exports.push([module.i, ":host /deep/ .jumbotron {\n  color: #fff;\n  padding: 100px 25px;\n  font-family: Montserrat, sans-serif;\n  height: 100vh;\n  background: none; }\n  :host /deep/ .jumbotron .title-text {\n    margin: 1% auto;\n    text-shadow: 2px 3px 4px #000;\n    font-size: 3.5em; }\n  :host /deep/ .jumbotron .title-elements {\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: vertical;\n    -webkit-box-direction: normal;\n        -ms-flex-direction: column;\n            flex-direction: column; }\n\n.parallax {\n  /* The image used */\n  background-image: url(" + __webpack_require__("../../../../../src/assets/images/corn-header.jpg") + ");\n  /* Full height */\n  height: 100vh;\n  /* Create the parallax scrolling effect */\n  background-attachment: fixed;\n  background-position: center;\n  background-repeat: no-repeat;\n  background-size: cover; }\n", ""]);
 
 // exports
 
@@ -321,12 +321,12 @@ module.exports = "<div id=\"contact\" class=\"container-fluid bg-grey\">\n  <h2 
 /***/ "../../../../../src/app/main-content/components/contact/contact.component.scss":
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(true);
+exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(false);
 // imports
 
 
 // module
-exports.push([module.i, "", "", {"version":3,"sources":[],"names":[],"mappings":"","file":"contact.component.scss","sourceRoot":""}]);
+exports.push([module.i, "", ""]);
 
 // exports
 
@@ -382,12 +382,12 @@ module.exports = "<div id=\"directory\" class=\"container-fluid\">\n  <div class
 /***/ "../../../../../src/app/main-content/components/directory/directory.component.scss":
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(true);
+exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(false);
 // imports
 
 
 // module
-exports.push([module.i, "address {\n  height: 200px; }\n\n.btn-success {\n  background-color: #77A23D;\n  border-color: #77A23D; }\n  .btn-success:active {\n    background-color: #5a7b2e; }\n", "", {"version":3,"sources":["/Users/bennyfrancodennis/Developer/alinsumos/src/app/main-content/components/directory/directory.component.scss","/Users/bennyfrancodennis/Developer/alinsumos/src/assets/styles/_general-vars.scss"],"names":[],"mappings":"AACA;EACI,cAAa,EAChB;;AAED;EACI,0BCJiB;EDKjB,sBCLiB,EDUpB;EAPD;IAKM,0BCPsB,EDQvB","file":"directory.component.scss","sourcesContent":["@import \"../../../../assets/styles/_general-vars.scss\";\naddress {\n    height: 200px;\n}\n\n.btn-success {\n    background-color: $third-color;\n    border-color: $third-color;\n\n    &:active {\n      background-color: $third-color-active;\n    }\n}\n","$main-color: #884F20;\n$secondary-color: #FEC32B;\n$third-color: #77A23D;\n$third-color-active: #5a7b2e;\n"],"sourceRoot":""}]);
+exports.push([module.i, "address {\n  height: 200px; }\n\n.btn-success {\n  background-color: #77A23D;\n  border-color: #77A23D; }\n  .btn-success:active {\n    background-color: #5a7b2e; }\n", ""]);
 
 // exports
 
@@ -448,12 +448,12 @@ module.exports = "<div id=\"googleMap\">\n  <div class=\"embed-responsive embed-
 /***/ "../../../../../src/app/main-content/components/map/map.component.scss":
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(true);
+exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(false);
 // imports
 
 
 // module
-exports.push([module.i, "", "", {"version":3,"sources":[],"names":[],"mappings":"","file":"map.component.scss","sourceRoot":""}]);
+exports.push([module.i, "", ""]);
 
 // exports
 
@@ -509,12 +509,12 @@ module.exports = "<div id=\"products\" class=\"container-fluid text-center\">\n 
 /***/ "../../../../../src/app/main-content/components/products/products.component.scss":
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(true);
+exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(false);
 // imports
 
 
 // module
-exports.push([module.i, "a.thumbnail:hover, a.thumbnail:active, a.thumbnail:focus {\n  border-color: #77A23D; }\n", "", {"version":3,"sources":["/Users/bennyfrancodennis/Developer/alinsumos/src/app/main-content/components/products/products.component.scss","/Users/bennyfrancodennis/Developer/alinsumos/src/assets/styles/_general-vars.scss"],"names":[],"mappings":"AACA;EAEQ,sBCDa,EDEhB","file":"products.component.scss","sourcesContent":["@import \"../../../../assets/styles/_general-vars.scss\";\na.thumbnail {\n    &:hover, &:active, &:focus {\n        border-color: $third-color;\n    }\n}\n","$main-color: #884F20;\n$secondary-color: #FEC32B;\n$third-color: #77A23D;\n$third-color-active: #5a7b2e;\n"],"sourceRoot":""}]);
+exports.push([module.i, "a.thumbnail:hover, a.thumbnail:active, a.thumbnail:focus {\n  border-color: #77A23D; }\n", ""]);
 
 // exports
 
@@ -575,12 +575,12 @@ module.exports = "<div id=\"services\" class=\"container-fluid text-center\">\n 
 /***/ "../../../../../src/app/main-content/components/services/services.component.scss":
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(true);
+exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(false);
 // imports
 
 
 // module
-exports.push([module.i, ".thumbnail {\n  padding: 0 0 15px 0;\n  border: none;\n  border-radius: 0; }\n\n.thumbnail img {\n  width: 100%;\n  height: 100%;\n  margin-bottom: 10px; }\n", "", {"version":3,"sources":["/Users/bennyfrancodennis/Developer/alinsumos/src/app/main-content/components/services/services.component.scss"],"names":[],"mappings":"AAAA;EACE,oBAAmB;EACnB,aAAY;EACZ,iBAAgB,EACjB;;AAED;EACE,YAAW;EACX,aAAY;EACZ,oBAAmB,EACpB","file":"services.component.scss","sourcesContent":[".thumbnail {\n  padding: 0 0 15px 0;\n  border: none;\n  border-radius: 0;\n}\n\n.thumbnail img {\n  width: 100%;\n  height: 100%;\n  margin-bottom: 10px;\n}\n"],"sourceRoot":""}]);
+exports.push([module.i, ".thumbnail {\n  padding: 0 0 15px 0;\n  border: none;\n  border-radius: 0; }\n\n.thumbnail img {\n  width: 100%;\n  height: 100%;\n  margin-bottom: 10px; }\n", ""]);
 
 // exports
 
@@ -641,12 +641,12 @@ module.exports = "<al-header></al-header>\n\n<div id=\"about\" class=\"container
 /***/ "../../../../../src/app/main-content/main-content.component.scss":
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(true);
+exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(false);
 // imports
 
 
 // module
-exports.push([module.i, ".parallax {\n  /* The image used */\n  background-image: url(" + __webpack_require__("../../../../../src/assets/images/corn-header.jpg") + ");\n  /* Full height */\n  height: 100vh;\n  /* Create the parallax scrolling effect */\n  background-attachment: fixed;\n  background-position: center;\n  background-repeat: no-repeat;\n  background-size: cover; }\n\n.charmain-video {\n  width: 320px;\n  height: 250px; }\n", "", {"version":3,"sources":["/Users/bennyfrancodennis/Developer/alinsumos/src/app/main-content/main-content.component.scss"],"names":[],"mappings":"AACA;EACE,oBAAoB;EACpB,gDAA4D;EAG5D,iBAAiB;EACjB,cAAa;EAEb,0CAA0C;EAC1C,6BAA4B;EAC5B,4BAA2B;EAC3B,6BAA4B;EAC5B,uBAAsB,EACvB;;AAED;EACE,aAAY;EACZ,cAAa,EACd","file":"main-content.component.scss","sourcesContent":["//noinspection ALL\n.parallax {\n  /* The image used */\n  background-image: url('../../assets/images/corn-header.jpg');\n  //background-image: url('assets/images/trigo_manos.jpg');\n\n  /* Full height */\n  height: 100vh;\n\n  /* Create the parallax scrolling effect */\n  background-attachment: fixed;\n  background-position: center;\n  background-repeat: no-repeat;\n  background-size: cover;\n}\n\n.charmain-video{\n  width: 320px;\n  height: 250px;\n}\n"],"sourceRoot":""}]);
+exports.push([module.i, ".parallax {\n  /* The image used */\n  background-image: url(" + __webpack_require__("../../../../../src/assets/images/corn-header.jpg") + ");\n  /* Full height */\n  height: 100vh;\n  /* Create the parallax scrolling effect */\n  background-attachment: fixed;\n  background-position: center;\n  background-repeat: no-repeat;\n  background-size: cover; }\n\n.charmain-video {\n  width: 320px;\n  height: 250px; }\n", ""]);
 
 // exports
 
@@ -882,12 +882,12 @@ module.exports = "<nav class=\"navbar navbar-default navbar-fixed-top\" [@navBar
 /***/ "../../../../../src/app/menu/menu.component.scss":
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(true);
+exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(false);
 // imports
 
 
 // module
-exports.push([module.i, ".logo-small {\n  color: #884F20;\n  font-size: 50px; }\n\n.logo {\n  color: #884F20;\n  font-size: 200px; }\n\n.navbar {\n  margin-bottom: 0;\n  background-color: transparent;\n  z-index: 9999;\n  border: 0;\n  font-size: 12px !important;\n  line-height: 1.42857143 !important;\n  letter-spacing: 4px;\n  border-radius: 0;\n  font-weight: 700; }\n  .navbar .navbar-brand {\n    color: #fff !important;\n    padding: 10px 0; }\n  .navbar li a {\n    color: #fff !important;\n    text-transform: uppercase;\n    text-shadow: 2px 3px 4px #000;\n    font-size: 14px; }\n  .navbar li :hover, .navbar li :active {\n    background-color: rgba(255, 255, 255, 0.4) !important; }\n\n.navbar-default .navbar-toggle {\n  border-color: transparent;\n  color: #fff !important; }\n", "", {"version":3,"sources":["/Users/bennyfrancodennis/Developer/alinsumos/src/app/menu/menu.component.scss","/Users/bennyfrancodennis/Developer/alinsumos/src/assets/styles/_general-vars.scss"],"names":[],"mappings":"AAEA;EACE,eCHkB;EDIlB,gBAAe,EAChB;;AAED;EACE,eCRkB;EDSlB,iBAAgB,EACjB;;AAED;EACE,iBAAgB;EAChB,8BAA6B;EAC7B,cAAa;EACb,UAAS;EACT,2BAA0B;EAC1B,mCAAkC;EAClC,oBAAmB;EACnB,iBAAgB;EAChB,iBAAgB,EAoBjB;EA7BD;IAaI,uBAAsB;IACtB,gBAAe,EAChB;EAfH;IAmBM,uBAAsB;IACtB,0BAAyB;IACzB,8BAA6B;IAC7B,gBAAe,EAChB;EAvBL;IA0BM,sDAAqD,EACtD;;AAIL;EACE,0BAAyB;EACzB,uBAAsB,EACvB","file":"menu.component.scss","sourcesContent":["@import \"../../assets/styles/_general-vars.scss\";\n\n.logo-small {\n  color: $main-color;\n  font-size: 50px;\n}\n\n.logo {\n  color: $main-color;\n  font-size: 200px;\n}\n\n.navbar {\n  margin-bottom: 0;\n  background-color: transparent;\n  z-index: 9999;\n  border: 0;\n  font-size: 12px !important;\n  line-height: 1.42857143 !important;\n  letter-spacing: 4px;\n  border-radius: 0;\n  font-weight: 700;\n  // font-family: Montserrat, sans-serif;\n\n  .navbar-brand {\n    color: #fff !important;\n    padding: 10px 0;\n  }\n\n  li {\n    a {\n      color: #fff !important;\n      text-transform: uppercase;\n      text-shadow: 2px 3px 4px #000;\n      font-size: 14px;\n    }\n    :hover, :active {\n      // color: $main-color !important;\n      background-color: rgba(255, 255, 255, 0.4) !important;\n    }\n  }\n}\n\n.navbar-default .navbar-toggle {\n  border-color: transparent;\n  color: #fff !important;\n}\n","$main-color: #884F20;\n$secondary-color: #FEC32B;\n$third-color: #77A23D;\n$third-color-active: #5a7b2e;\n"],"sourceRoot":""}]);
+exports.push([module.i, ".logo-small {\n  color: #884F20;\n  font-size: 50px; }\n\n.logo {\n  color: #884F20;\n  font-size: 200px; }\n\n.navbar {\n  margin-bottom: 0;\n  background-color: transparent;\n  z-index: 9999;\n  border: 0;\n  font-size: 12px !important;\n  line-height: 1.42857143 !important;\n  letter-spacing: 4px;\n  border-radius: 0;\n  font-weight: 700; }\n  .navbar .navbar-brand {\n    color: #fff !important;\n    padding: 10px 0; }\n  .navbar li a {\n    color: #fff !important;\n    text-transform: uppercase;\n    text-shadow: 2px 3px 4px #000;\n    font-size: 14px; }\n  .navbar li :hover, .navbar li :active {\n    background-color: rgba(255, 255, 255, 0.4) !important; }\n\n.navbar-default .navbar-toggle {\n  border-color: transparent;\n  color: #fff !important; }\n", ""]);
 
 // exports
 
@@ -1074,7 +1074,7 @@ RoutingModule = __decorate([
 /***/ "../../../../../src/assets/images/corn-header.jpg":
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "corn-header.fbc8ced732e6816e1a58.jpg";
+module.exports = __webpack_require__.p + "corn-header.a6b7faaf8267a0ec1bd6.jpg";
 
 /***/ }),
 
