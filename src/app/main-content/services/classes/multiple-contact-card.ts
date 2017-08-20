@@ -9,8 +9,8 @@ export class MultipleContactCard extends ContactCard {
 
     contacts.forEach((contact, index) => {
       mainName = contact.mainName;
-      phone += contact.phone + (index < contacts.length ? ' y ' : '');
-      email += contact.email + (index < contacts.length ? ' y ' : '');
+      phone += contact.phone + (index === contacts.length - 1 ? '' : ' y ');
+      email += contact.email + (index === contacts.length - 1 ? '' : ' y ');
     });
 
     super(mainName, phone, email);

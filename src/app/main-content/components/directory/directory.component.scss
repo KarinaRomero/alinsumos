@@ -1,0 +1,9 @@
+@import "../../../../assets/styles/_general-vars.scss";
+address {
+    height: 200px;
+}
+
+.btn-success {
+    background-color: $third-color;
+    border-color: $third-color;
+}
