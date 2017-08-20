@@ -6,4 +6,8 @@ address {
 .btn-success {
     background-color: $third-color;
     border-color: $third-color;
+
+    &:active {
+      background-color: $third-color-active;
+    }
 }
