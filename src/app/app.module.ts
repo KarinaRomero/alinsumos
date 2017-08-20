@@ -1,3 +1,4 @@
+import { RoutingModule } from './routing/routing.module';
 import { TruncateTextPipe } from './pipes/truncate-text.pipe';
 import { ProductsInformationService } from './main-content/services/products-information.service';
 import { ServicesComponent } from './main-content/components/services/services.component';
@@ -42,6 +43,7 @@ export function createTranslateLoader(http: Http) {
     BrowserModule,
     BrowserAnimationsModule,
     FormsModule,
+    RoutingModule,
     HttpModule,
     TranslateModule.forRoot({
       loader: {
