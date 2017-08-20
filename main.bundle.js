@@ -1074,7 +1074,7 @@ RoutingModule = __decorate([
 /***/ "../../../../../src/assets/images/corn-header.jpg":
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "corn-header.a6b7faaf8267a0ec1bd6.jpg";
+module.exports = __webpack_require__.p + "corn-header.261f919d13da50fe2801.jpg";
 
 /***/ }),
 
