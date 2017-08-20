@@ -1,26 +1,30 @@
 <div id="contact" class="container-fluid bg-grey">
-  <h2 class="text-center">Contacto</h2>
+  <h2 class="text-center">{{ 'CONTACT-SECTION.TITLE' | translate }}</h2>
   <div class="row">
     <div class="col-sm-8">
-      <p>Contact us and we'll get back to you within 24 hours.</p>
+      <p>{{ 'CONTACT-SECTION.SECTION-MESSAGE' | translate }}</p>
       <p><span class="glyphicon glyphicon-map-marker"></span> Carretera internacional México-Nogales. Km 1841 S/N. Parque industrial.
         Cd. Obregón, Sonora, México.</p>
       <p><span class="glyphicon glyphicon-phone"></span> +52 (644) 413 99 29</p>
       <p><span class="glyphicon glyphicon-envelope"></span> recepcion@alinsumos.com</p>
+      <p>{{ 'CONTACT-SECTION.DIRECTORY-INSTRUCTION' | translate }}</p>
+      <p>
+        <a href="#" class="btn btn-default" role="button">{{ 'CONTACT-SECTION.DIRECTORY-BUTTON' | translate }}</a>
+      </p>
     </div>
     <div class="col-sm-4">
       <div class="row">
         <div class="col-sm-6 form-group">
-          <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+          <input class="form-control" id="name" name="name" placeholder="{{ 'CONTACT-SECTION.CONTACT-FORM.NAME-INPUT' | translate }}" type="text" required>
         </div>
         <div class="col-sm-6 form-group">
-          <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+          <input class="form-control" id="email" name="email" placeholder="{{ 'CONTACT-SECTION.CONTACT-FORM.EMAIL-INPUT' | translate }}" type="email" required>
         </div>
       </div>
-      <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+      <textarea class="form-control" id="comments" name="comments" placeholder="{{ 'CONTACT-SECTION.CONTACT-FORM.COMMENT-TEXTAREA' | translate }}" rows="5"></textarea><br>
       <div class="row">
         <div class="col-sm-12 form-group">
-          <button class="btn btn-default pull-right" type="submit">Send</button>
+          <button class="btn btn-default pull-right" type="submit">{{ 'CONTACT-SECTION.CONTACT-FORM.SEND_BUTTON' | translate }}</button>
         </div>
       </div>
     </div>
