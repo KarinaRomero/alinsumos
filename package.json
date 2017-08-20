@@ -10,7 +10,9 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "deploy": "ng build -sm -ec -bh https://bennyfranco.github.io/alinsumos/ & ngh"
+    "build-to-deploy": "ng build -sm -ec -bh https://bennyfranco.github.io/alinsumos/",
+    "deploy": "ngh --no-silent",
+    "build-and-deploy": "npm run build-to-deploy & npm run deploy"
   },
   "private": true,
   "dependencies": {
