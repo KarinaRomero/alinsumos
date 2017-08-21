@@ -61,6 +61,12 @@
   },
   "defaults": {
     "styleExt": "scss",
-    "component": {}
+    "component": {
+      "inlineTemplate": false,
+      "spec": false
+    },
+    "service": {
+      "spec": false
+    }
   }
 }

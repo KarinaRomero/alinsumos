@@ -6,7 +6,7 @@ export class ProductsInformationService {
 
   productsInformation: Array<ContentPost>;
 
-  private grains = new ContentPost('Granos', '', 'products/trigo-manos.jpg');
+  private grains = new ContentPost('Granos', '', 'products/trigo-manos.jpg', 'granos');
   private pastas = new ContentPost('Pastas', '', 'products/pasta.jpg');
   private flour = new ContentPost('Harinas', '', 'products/harina.jpg');
   private oils = new ContentPost('Grasas y aceites', '', 'products/grasas-aceites.jpg');

@@ -21,6 +21,9 @@ import { ProductsComponent } from './main-content/components/products/products.c
 import { ContactComponent } from './main-content/components/contact/contact.component';
 import { MapComponent } from './main-content/components/map/map.component';
 import { DirectoryComponent } from './main-content/components/directory/directory.component';
+import { GrainsComponent } from './main-content/components/products/components/grains/grains.component';
+import { PostComponent } from './main-content/components/post/post.component';
+import { MenuPostComponent } from './main-content/components/menu-post/menu-post.component';
 
 export function createTranslateLoader(http: Http) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
@@ -39,7 +42,10 @@ export function createTranslateLoader(http: Http) {
     TruncateTextPipe,
     ContactComponent,
     MapComponent,
-    DirectoryComponent
+    DirectoryComponent,
+    GrainsComponent,
+    PostComponent,
+    MenuPostComponent
   ],
   imports: [
     BrowserModule,
