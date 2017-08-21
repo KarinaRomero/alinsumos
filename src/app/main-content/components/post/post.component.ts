@@ -1,8 +1,9 @@
 import { Subscription } from 'rxjs/Rx';
+import { DOCUMENT } from '@angular/platform-browser';
 import { ActivatedRoute, Params } from '@angular/router';
 import { ProductsInformationService } from '../../services/products-information.service';
 import { ContentPost } from '../../services/classes/content-post';
-import { AfterViewInit, Component, Input, OnDestroy, OnInit } from '@angular/core';
+import { AfterViewInit, Component, Inject, Input, OnDestroy, OnInit } from '@angular/core';
 
 @Component({
   selector: 'al-post',
@@ -17,13 +18,15 @@ export class PostComponent implements OnInit, OnDestroy {
 
   constructor(
     private products: ProductsInformationService,
-    private route: ActivatedRoute) { }
+    private route: ActivatedRoute,
+    @Inject(DOCUMENT) private document: Document) { }
 
   ngOnInit() {
     this.paramsSubscription = this.route.params
       .subscribe(
       (params: Params) => {
         this.activeContent = this.products.getProduct(params['product']);
+        this.document.body.scrollTop = 0;
       });
   }
 

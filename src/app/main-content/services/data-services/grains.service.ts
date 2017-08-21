@@ -73,7 +73,7 @@ export class GrainsService {
     `El maíz como parte de las mezclas para alimento destaca por su riqueza en hidratos de carbono proporcionados por su abundante almidón.
     Como consecuencia es un alimento muy saciable y muy completo, posee una proporción
     muy elevada de proteínas y aunque no todas son asimilables posee también porcentajes muy elevados de potasio hierro y fosforo.`,
-    'http://via.placeholder.com/200x200',
+    'products/maiz-forrajero.jpg',
     GrainsLinks.MAIZ_FORRAJERO,
     this.maizForrajeroTable,
   );

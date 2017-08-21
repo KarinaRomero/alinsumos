@@ -10,6 +10,10 @@ import { RouterModule, Routes } from '@angular/router';
 const appRoutes: Routes = [
   { path: '', component: MainContentComponent },
   { path: 'directory', component: DirectoryComponent },
+  { path: 'productos/granos',
+    redirectTo: '/productos/granos/maiz-forrajero',
+    pathMatch: 'full'
+  },
   {
     path: 'productos/granos', component: GrainsComponent, children: [
       { path: ':product', component: PostComponent }

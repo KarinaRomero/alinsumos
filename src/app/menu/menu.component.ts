@@ -1,5 +1,6 @@
+import { Subscription } from 'rxjs/Rx';
 import { Router } from '@angular/router';
-import { Component, HostListener, Inject, ViewChild } from '@angular/core';
+import { Component, HostListener, Inject, OnDestroy, ViewChild } from '@angular/core';
 import { DOCUMENT } from '@angular/platform-browser';
 import { trigger, state, style, transition, animate, keyframes } from '@angular/animations';
 
@@ -20,7 +21,7 @@ import { trigger, state, style, transition, animate, keyframes } from '@angular/
     ])
   ]
 })
-export class MenuComponent {
+export class MenuComponent implements OnDestroy {
 
   @ViewChild('nav') navigationBar;
 
@@ -28,19 +29,21 @@ export class MenuComponent {
   navIsFixed = false;
   navIsOutOfIndex = false;
 
+  routerEvent: Subscription;
+
   constructor(
     @Inject(DOCUMENT) private document: Document,
     private router: Router) {
-      this.router.events.subscribe((routerEvents: any) => {
-        console.log(routerEvents.url );
-        if (routerEvents.url.indexOf('#') <= 0) {
-          this.navIsOutOfIndex = true;
-          this.navStatus = 'scrolled';
-        }else {
-          this.navIsOutOfIndex = false;
-        }
-      });
-    }
+    this.routerEvent = this.router.events.subscribe((routerEvents: any) => {
+      if (routerEvents.url.indexOf('#') <= 0 && routerEvents.url !== '/') {
+        this.navIsOutOfIndex = true;
+        this.navStatus = 'scrolled';
+        this.navIsFixed = true;
+      } else {
+        this.navIsOutOfIndex = false;
+      }
+    });
+  }
 
   @HostListener('window:scroll', [])
   onWindowScroll() {
@@ -54,4 +57,8 @@ export class MenuComponent {
     }
   }
 
+
+  ngOnDestroy() {
+    this.routerEvent.unsubscribe();
+  }
 }
