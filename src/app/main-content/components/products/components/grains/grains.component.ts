@@ -1,17 +1,12 @@
-import { GrainsService } from '../../../../services/data-services/grains.service';
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'al-grains',
   templateUrl: './grains.component.html',
-  styleUrls: ['./grains.component.scss'],
-  providers: [GrainsService]
+  styleUrls: ['./grains.component.scss']
 })
-export class GrainsComponent implements OnInit {
+export class GrainsComponent {
 
-  constructor(private grainsService: GrainsService) { }
-
-  ngOnInit() {
+  constructor() {
   }
-
 }

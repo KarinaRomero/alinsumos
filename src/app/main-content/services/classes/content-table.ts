@@ -1,8 +1,8 @@
 export class ContentTable {
-  tableBody: Array<Row>;
+  body: Array<Row>;
 
   constructor(tableBody: Array<Row>) {
-    this.tableBody = tableBody;
+    this.body = tableBody;
   }
 }
 

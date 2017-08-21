@@ -1,3 +1,4 @@
+import { GrainsService } from './main-content/services/data-services/grains.service';
 import { RoutingModule } from './routing/routing.module';
 import { TruncateTextPipe } from './pipes/truncate-text.pipe';
 import { ProductsInformationService } from './main-content/services/products-information.service';
@@ -63,7 +64,8 @@ export function createTranslateLoader(http: Http) {
   ],
   providers: [
     ServicesInformationService,
-    ProductsInformationService
+    ProductsInformationService,
+    GrainsService
   ],
   bootstrap: [AppComponent]
 })

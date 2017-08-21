@@ -1,3 +1,5 @@
+import { GrainsLinks } from '../classes/products-links';
+import { DataServices } from '../interfaces/data-services';
 import { ContentTable, Row } from '../classes/content-table';
 import { ContentPost } from '../classes/content-post';
 import { Injectable } from '@angular/core';
@@ -66,17 +68,17 @@ export class GrainsService {
     * Information
     ********/
 
-  private maizForrajero = new ContentPost(
+  maizForrajero = new ContentPost(
     'Maíz Forrajero',
     `El maíz como parte de las mezclas para alimento destaca por su riqueza en hidratos de carbono proporcionados por su abundante almidón.
     Como consecuencia es un alimento muy saciable y muy completo, posee una proporción
     muy elevada de proteínas y aunque no todas son asimilables posee también porcentajes muy elevados de potasio hierro y fosforo.`,
     'http://via.placeholder.com/200x200',
-    'maiz-forrajero',
+    GrainsLinks.MAIZ_FORRAJERO,
     this.maizForrajeroTable,
   );
 
-  private maizTortillero = new ContentPost(
+  maizTortillero = new ContentPost(
     'Maíz Tortillero',
     `El Maíz utilizado para alimentación humana es fundamental,
     capaz de saciar el hambre durante un tiempo prolongado sin
@@ -84,22 +86,22 @@ export class GrainsService {
     se ha comprobado que las dietas que incluyen maíz permiten disminuir de
     peso de manera adecuada.`,
     'http://via.placeholder.com/200x200',
-    'maiz-tortillero',
+    GrainsLinks.MAIZ_TORTILLERO,
     this.maizTortilleroTable,
   );
 
-  private trigo = new ContentPost(
+  trigo = new ContentPost(
     'Trigo',
     `El trigo es uno de los alimentos más completos tanto para la alimentación Humana
     como pecuaria, contiene una cantidad muy elevada de minerales como potasio, fosforo,
     hierro, zinc entre otros, existen dos grupos principales, los trigos cristalinos o
     duros y los trigos harineros o blandos usados en la industria harinera y de pastas.`,
     'http://via.placeholder.com/200x200',
-    'trigo',
+    GrainsLinks.TRIGO,
     this.trigoTable,
   );
 
-  private sorgo = new ContentPost(
+  sorgo = new ContentPost(
     'Sorgo',
     `El sorgo forrajero es un cultivo que se adapta bien a zonas en
     las cuales el maíz se ve limitado en su producción y calidad,
@@ -109,20 +111,20 @@ export class GrainsService {
     previo su molido o quebrado de su grano, proceso que aumenta la digestibilidad de
     la materia seca de la ingesta total.`,
     'http://via.placeholder.com/200x200',
-    'sorgo',
+    GrainsLinks.SORGO,
     this.sorgoTable,
   );
 
-  private algodon = new ContentPost(
+  algodon = new ContentPost(
     'Semilla de algodón',
     `Semilla de Algodón es un recurso abundante y de bajo costo para la alimentación de bovinos
     y constituye una fuente alta en proteína, fibra, grasa y energía.`,
     'http://via.placeholder.com/200x200',
-    'semilla-algodon',
+    GrainsLinks.SEMILLA_ALGODON,
     this.semillaDeAlgodonTable,
   );
 
-  private cartamo = new ContentPost(
+  cartamo = new ContentPost(
     'Cártamo',
     `Originariamente, el cártamo fue cultivado por sus flores, las cuales fueron utilizadas para hacer
     pigmentos rojos y amarillos para la coloración de prendas de vestir y alimentos. Actualmente,
@@ -130,10 +132,9 @@ export class GrainsService {
     Su aceite se usa también para la prevención de enfermedades cardiovasculares por lo que es muy apreciado
     en los restaurantes de alta cocina gracias a estas propiedades.`,
     'http://via.placeholder.com/200x200',
-    'cartamo',
+    GrainsLinks.CARTAMO,
     this.cartamoTable,
   );
 
   constructor() { }
-
 }

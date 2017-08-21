@@ -1,4 +1,5 @@
 import { ContentTable } from './content-table';
+
 export class ContentPost {
   title: string;
   content: string;
@@ -12,8 +13,18 @@ export class ContentPost {
   constructor(title: string, content?: string, image?: string, link?: string, table?: ContentTable) {
     this.title = title;
     this.content = content ? content : '';
-    this.image = image ? this.imagesRoute + image : '';
+    this.image = this.imageOrigin(image);
     this.link = link;
     this.table = table;
+  }
+
+  private imageOrigin(image: string): string {
+    if (image && !image.includes('http')) {
+      return this.imagesRoute + image;
+    } else if (image && image.includes('http')) {
+      return image;
+    } else {
+      return '';
+    }
   }
 }
