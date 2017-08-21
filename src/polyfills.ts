@@ -25,7 +25,7 @@ import 'web-animations-js';
 // Learn more in https://angular.io/docs/ts/latest/guide/browser-support.html
 
 // Needed for: IE9
-// import 'classlist.js';
+import 'classlist/classlist.js';
 
 // Animations
 // Needed for: All but Chrome and Firefox, Not supported in IE9
