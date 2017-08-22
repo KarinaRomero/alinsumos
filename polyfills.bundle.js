@@ -39,6 +39,8 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_15_zone_js_dist_zone___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_15_zone_js_dist_zone__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_16_web_animations_js__ = __webpack_require__("../../../../web-animations-js/web-animations.min.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_16_web_animations_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_16_web_animations_js__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17_classlist_classlist_js__ = __webpack_require__("../../../../classlist/classlist.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17_classlist_classlist_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_17_classlist_classlist_js__);
 // This file includes polyfills needed by Angular and is loaded before the app.
 // You can add your own extra polyfills to this file.
 
@@ -62,7 +64,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 // and run `npm install import-name-here';
 // Learn more in https://angular.io/docs/ts/latest/guide/browser-support.html
 // Needed for: IE9
-// import 'classlist.js';
+
 // Animations
 // Needed for: All but Chrome and Firefox, Not supported in IE9
 // import 'web-animations-js';
@@ -73,6 +75,145 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 // Needed for: IE10, IE11
 // import 'classlist.js';
 //# sourceMappingURL=polyfills.js.map
+
+/***/ }),
+
+/***/ "../../../../classlist/classlist.js":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+module.exports = ClassList
+
+var indexOf = __webpack_require__("../../../../component-indexof/index.js"),
+    trim = __webpack_require__("../../../../trim/index.js"),
+    arr = Array.prototype
+
+/**
+ * ClassList(elem) is kind of like Element#classList.
+ *
+ * @param {Element} elem
+ * @return {ClassList}
+ */
+function ClassList (elem) {
+  if (!(this instanceof ClassList))
+    return new ClassList(elem)
+
+  var classes = trim(elem.className).split(/\s+/),
+      i
+
+  this._elem = elem
+
+  this.length = 0
+
+  for (i = 0; i < classes.length; i += 1) {
+    if (classes[i])
+      arr.push.call(this, classes[i])
+  }
+}
+
+/**
+ * add(class1 [, class2 [, ...]]) adds the given class(es) to the
+ * element.
+ *
+ * @param {String} ...
+ * @return {Context}
+ */
+ClassList.prototype.add = function () {
+  var name,
+      i
+
+  for (i = 0; i < arguments.length; i += 1) {
+    name = '' + arguments[i]
+
+    if (indexOf(this, name) >= 0)
+      continue
+
+    arr.push.call(this, name)
+  }
+
+  this._elem.className = this.toString()
+
+  return this
+}
+
+/**
+ * remove(class1 [, class2 [, ...]]) removes the given class(es) from
+ * the element.
+ *
+ * @param {String} ...
+ * @return {Context}
+ */
+ClassList.prototype.remove = function () {
+  var index,
+      name,
+      i
+
+  for (i = 0; i < arguments.length; i += 1) {
+    name = '' + arguments[i]
+    index = indexOf(this, name)
+
+    if (index < 0) continue
+
+    arr.splice.call(this, index, 1)
+  }
+
+  this._elem.className = this.toString()
+
+  return this
+}
+
+/**
+ * contains(name) determines if the element has a given class.
+ *
+ * @param {String} name
+ * @return {Boolean}
+ */
+ClassList.prototype.contains = function (name) {
+  name += ''
+  return indexOf(this, name) >= 0
+}
+
+/**
+ * toggle(name [, force]) toggles a class. If force is a boolean,
+ * this method is basically just an alias for add/remove.
+ *
+ * @param {String} name
+ * @param {Boolean} force
+ * @return {Context}
+ */
+ClassList.prototype.toggle = function (name, force) {
+  name += ''
+
+  if (force === true) return this.add(name)
+  if (force === false) return this.remove(name)
+
+  return this[this.contains(name) ? 'remove' : 'add'](name)
+}
+
+/**
+ * toString() returns the className of the element.
+ *
+ * @return {String}
+ */
+ClassList.prototype.toString = function () {
+  return arr.join.call(this, ' ')
+}
+
+
+/***/ }),
+
+/***/ "../../../../component-indexof/index.js":
+/***/ (function(module, exports) {
+
+module.exports = function(arr, obj){
+  if (arr.indexOf) return arr.indexOf(obj);
+  for (var i = 0; i < arr.length; ++i) {
+    if (arr[i] === obj) return i;
+  }
+  return -1;
+};
 
 /***/ }),
 
@@ -5812,6 +5953,27 @@ for (var collections = getKeys(DOMIterables), i = 0; i < collections.length; i++
     if (explicit) for (key in $iterators) if (!proto[key]) redefine(proto, key, $iterators[key], true);
   }
 }
+
+
+/***/ }),
+
+/***/ "../../../../trim/index.js":
+/***/ (function(module, exports) {
+
+
+exports = module.exports = trim;
+
+function trim(str){
+  return str.replace(/^\s*|\s*$/g, '');
+}
+
+exports.left = function(str){
+  return str.replace(/^\s*/, '');
+};
+
+exports.right = function(str){
+  return str.replace(/\s*$/, '');
+};
 
 
 /***/ }),

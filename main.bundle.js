@@ -85,27 +85,31 @@ var _a;
 "use strict";
 /* unused harmony export createTranslateLoader */
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__routing_routing_module__ = __webpack_require__("../../../../../src/app/routing/routing.module.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__pipes_truncate_text_pipe__ = __webpack_require__("../../../../../src/app/pipes/truncate-text.pipe.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__main_content_services_products_information_service__ = __webpack_require__("../../../../../src/app/main-content/services/products-information.service.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__main_content_components_services_services_component__ = __webpack_require__("../../../../../src/app/main-content/components/services/services.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__main_content_services_services_information_service__ = __webpack_require__("../../../../../src/app/main-content/services/services-information.service.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__angular_platform_browser__ = __webpack_require__("../../../platform-browser/@angular/platform-browser.es5.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__angular_platform_browser_animations__ = __webpack_require__("../../../platform-browser/@angular/platform-browser/animations.es5.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__angular_core__ = __webpack_require__("../../../core/@angular/core.es5.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__angular_forms__ = __webpack_require__("../../../forms/@angular/forms.es5.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__angular_http__ = __webpack_require__("../../../http/@angular/http.es5.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__app_component__ = __webpack_require__("../../../../../src/app/app.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__header_header_component__ = __webpack_require__("../../../../../src/app/header/header.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__menu_menu_component__ = __webpack_require__("../../../../../src/app/menu/menu.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__footer_footer_component__ = __webpack_require__("../../../../../src/app/footer/footer.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__main_content_main_content_component__ = __webpack_require__("../../../../../src/app/main-content/main-content.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__ngx_translate_core__ = __webpack_require__("../../../../@ngx-translate/core/index.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__ngx_translate_http_loader__ = __webpack_require__("../../../../@ngx-translate/http-loader/index.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__main_content_components_products_products_component__ = __webpack_require__("../../../../../src/app/main-content/components/products/products.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__main_content_components_contact_contact_component__ = __webpack_require__("../../../../../src/app/main-content/components/contact/contact.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__main_content_components_map_map_component__ = __webpack_require__("../../../../../src/app/main-content/components/map/map.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__main_content_components_directory_directory_component__ = __webpack_require__("../../../../../src/app/main-content/components/directory/directory.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__main_content_services_data_services_grains_service__ = __webpack_require__("../../../../../src/app/main-content/services/data-services/grains.service.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__routing_routing_module__ = __webpack_require__("../../../../../src/app/routing/routing.module.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__pipes_truncate_text_pipe__ = __webpack_require__("../../../../../src/app/pipes/truncate-text.pipe.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__main_content_services_products_information_service__ = __webpack_require__("../../../../../src/app/main-content/services/products-information.service.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__main_content_components_services_services_component__ = __webpack_require__("../../../../../src/app/main-content/components/services/services.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__main_content_services_services_information_service__ = __webpack_require__("../../../../../src/app/main-content/services/services-information.service.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__angular_platform_browser__ = __webpack_require__("../../../platform-browser/@angular/platform-browser.es5.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__angular_platform_browser_animations__ = __webpack_require__("../../../platform-browser/@angular/platform-browser/animations.es5.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__angular_core__ = __webpack_require__("../../../core/@angular/core.es5.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__angular_forms__ = __webpack_require__("../../../forms/@angular/forms.es5.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__angular_http__ = __webpack_require__("../../../http/@angular/http.es5.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__app_component__ = __webpack_require__("../../../../../src/app/app.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__header_header_component__ = __webpack_require__("../../../../../src/app/header/header.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__menu_menu_component__ = __webpack_require__("../../../../../src/app/menu/menu.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__footer_footer_component__ = __webpack_require__("../../../../../src/app/footer/footer.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__main_content_main_content_component__ = __webpack_require__("../../../../../src/app/main-content/main-content.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__ngx_translate_core__ = __webpack_require__("../../../../@ngx-translate/core/index.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__ngx_translate_http_loader__ = __webpack_require__("../../../../@ngx-translate/http-loader/index.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__main_content_components_products_products_component__ = __webpack_require__("../../../../../src/app/main-content/components/products/products.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__main_content_components_contact_contact_component__ = __webpack_require__("../../../../../src/app/main-content/components/contact/contact.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__main_content_components_map_map_component__ = __webpack_require__("../../../../../src/app/main-content/components/map/map.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__main_content_components_directory_directory_component__ = __webpack_require__("../../../../../src/app/main-content/components/directory/directory.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__main_content_components_products_components_grains_grains_component__ = __webpack_require__("../../../../../src/app/main-content/components/products/components/grains/grains.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__main_content_components_post_post_component__ = __webpack_require__("../../../../../src/app/main-content/components/post/post.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__main_content_components_menu_post_menu_post_component__ = __webpack_require__("../../../../../src/app/main-content/components/menu-post/menu-post.component.ts");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -133,8 +137,12 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
+
+
+
+
 function createTranslateLoader(http) {
-    return new __WEBPACK_IMPORTED_MODULE_16__ngx_translate_http_loader__["a" /* TranslateHttpLoader */](http, './assets/i18n/', '.json');
+    return new __WEBPACK_IMPORTED_MODULE_17__ngx_translate_http_loader__["a" /* TranslateHttpLoader */](http, './assets/i18n/', '.json');
 }
 var AppModule = (function () {
     function AppModule() {
@@ -142,39 +150,43 @@ var AppModule = (function () {
     return AppModule;
 }());
 AppModule = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_7__angular_core__["M" /* NgModule */])({
+    Object(__WEBPACK_IMPORTED_MODULE_8__angular_core__["M" /* NgModule */])({
         declarations: [
-            __WEBPACK_IMPORTED_MODULE_10__app_component__["a" /* AppComponent */],
-            __WEBPACK_IMPORTED_MODULE_11__header_header_component__["a" /* HeaderComponent */],
-            __WEBPACK_IMPORTED_MODULE_12__menu_menu_component__["a" /* MenuComponent */],
-            __WEBPACK_IMPORTED_MODULE_13__footer_footer_component__["a" /* FooterComponent */],
-            __WEBPACK_IMPORTED_MODULE_14__main_content_main_content_component__["a" /* MainContentComponent */],
-            __WEBPACK_IMPORTED_MODULE_3__main_content_components_services_services_component__["a" /* ServicesComponent */],
-            __WEBPACK_IMPORTED_MODULE_17__main_content_components_products_products_component__["a" /* ProductsComponent */],
-            __WEBPACK_IMPORTED_MODULE_1__pipes_truncate_text_pipe__["a" /* TruncateTextPipe */],
-            __WEBPACK_IMPORTED_MODULE_18__main_content_components_contact_contact_component__["a" /* ContactComponent */],
-            __WEBPACK_IMPORTED_MODULE_19__main_content_components_map_map_component__["a" /* MapComponent */],
-            __WEBPACK_IMPORTED_MODULE_20__main_content_components_directory_directory_component__["a" /* DirectoryComponent */]
+            __WEBPACK_IMPORTED_MODULE_11__app_component__["a" /* AppComponent */],
+            __WEBPACK_IMPORTED_MODULE_12__header_header_component__["a" /* HeaderComponent */],
+            __WEBPACK_IMPORTED_MODULE_13__menu_menu_component__["a" /* MenuComponent */],
+            __WEBPACK_IMPORTED_MODULE_14__footer_footer_component__["a" /* FooterComponent */],
+            __WEBPACK_IMPORTED_MODULE_15__main_content_main_content_component__["a" /* MainContentComponent */],
+            __WEBPACK_IMPORTED_MODULE_4__main_content_components_services_services_component__["a" /* ServicesComponent */],
+            __WEBPACK_IMPORTED_MODULE_18__main_content_components_products_products_component__["a" /* ProductsComponent */],
+            __WEBPACK_IMPORTED_MODULE_2__pipes_truncate_text_pipe__["a" /* TruncateTextPipe */],
+            __WEBPACK_IMPORTED_MODULE_19__main_content_components_contact_contact_component__["a" /* ContactComponent */],
+            __WEBPACK_IMPORTED_MODULE_20__main_content_components_map_map_component__["a" /* MapComponent */],
+            __WEBPACK_IMPORTED_MODULE_21__main_content_components_directory_directory_component__["a" /* DirectoryComponent */],
+            __WEBPACK_IMPORTED_MODULE_22__main_content_components_products_components_grains_grains_component__["a" /* GrainsComponent */],
+            __WEBPACK_IMPORTED_MODULE_23__main_content_components_post_post_component__["a" /* PostComponent */],
+            __WEBPACK_IMPORTED_MODULE_24__main_content_components_menu_post_menu_post_component__["a" /* MenuPostComponent */]
         ],
         imports: [
-            __WEBPACK_IMPORTED_MODULE_5__angular_platform_browser__["a" /* BrowserModule */],
-            __WEBPACK_IMPORTED_MODULE_6__angular_platform_browser_animations__["a" /* BrowserAnimationsModule */],
-            __WEBPACK_IMPORTED_MODULE_8__angular_forms__["a" /* FormsModule */],
-            __WEBPACK_IMPORTED_MODULE_0__routing_routing_module__["a" /* RoutingModule */],
-            __WEBPACK_IMPORTED_MODULE_9__angular_http__["b" /* HttpModule */],
-            __WEBPACK_IMPORTED_MODULE_15__ngx_translate_core__["b" /* TranslateModule */].forRoot({
+            __WEBPACK_IMPORTED_MODULE_6__angular_platform_browser__["a" /* BrowserModule */],
+            __WEBPACK_IMPORTED_MODULE_7__angular_platform_browser_animations__["a" /* BrowserAnimationsModule */],
+            __WEBPACK_IMPORTED_MODULE_9__angular_forms__["a" /* FormsModule */],
+            __WEBPACK_IMPORTED_MODULE_1__routing_routing_module__["a" /* RoutingModule */],
+            __WEBPACK_IMPORTED_MODULE_10__angular_http__["b" /* HttpModule */],
+            __WEBPACK_IMPORTED_MODULE_16__ngx_translate_core__["b" /* TranslateModule */].forRoot({
                 loader: {
-                    provide: __WEBPACK_IMPORTED_MODULE_15__ngx_translate_core__["a" /* TranslateLoader */],
+                    provide: __WEBPACK_IMPORTED_MODULE_16__ngx_translate_core__["a" /* TranslateLoader */],
                     useFactory: (createTranslateLoader),
-                    deps: [__WEBPACK_IMPORTED_MODULE_9__angular_http__["a" /* Http */]]
+                    deps: [__WEBPACK_IMPORTED_MODULE_10__angular_http__["a" /* Http */]]
                 }
             })
         ],
         providers: [
-            __WEBPACK_IMPORTED_MODULE_4__main_content_services_services_information_service__["a" /* ServicesInformationService */],
-            __WEBPACK_IMPORTED_MODULE_2__main_content_services_products_information_service__["a" /* ProductsInformationService */]
+            __WEBPACK_IMPORTED_MODULE_5__main_content_services_services_information_service__["a" /* ServicesInformationService */],
+            __WEBPACK_IMPORTED_MODULE_3__main_content_services_products_information_service__["a" /* ProductsInformationService */],
+            __WEBPACK_IMPORTED_MODULE_0__main_content_services_data_services_grains_service__["a" /* GrainsService */]
         ],
-        bootstrap: [__WEBPACK_IMPORTED_MODULE_10__app_component__["a" /* AppComponent */]]
+        bootstrap: [__WEBPACK_IMPORTED_MODULE_11__app_component__["a" /* AppComponent */]]
     })
 ], AppModule);
 
@@ -185,7 +197,7 @@ AppModule = __decorate([
 /***/ "../../../../../src/app/footer/footer.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<footer class=\"container-fluid text-center\">\n  <a href=\"#\" title=\"To Top\">\n    <span class=\"glyphicon glyphicon-chevron-up\"></span>\n  </a>\n</footer>\n"
+module.exports = "<footer class=\"container-fluid text-center\">\n  <div class=\"row\">\n    <div class=\"col-md-4\">\n      <address class=\"text-left\">\n        <strong>Alinsumos, S.A. de C.V.</strong><br> Carretera internacional México-Nogales. Km 1841 S/N. Parque industrial.\n        Cd. Obregón, Sonora, México.<br/>\n      </address>\n    </div>\n    <div class=\"col-md-4\">\n      <h6>Teléfonos</h6>\n      <ul>\n        <li><abbr title=\"Teléfono\">T:</abbr><a href=\"tel:+52 (644) 413 99 29\"> +52 (644) 413 99 29</a></li>\n        <li><abbr title=\"Teléfono\">T:</abbr><a href=\"tel:+52 (644) 445 01 17\"> +52 (644) 445 01 17</a></li>\n        <li><abbr title=\"Teléfono\">T:</abbr><a href=\"tel:+52 (644) 445 02 51\"> +52 (644) 445 02 51</a></li>\n        <li><abbr title=\"Teléfono\">T:</abbr><a href=\"tel:+52 (644) 445 01 16\"> +52 (644) 445 01 16</a></li>\n      </ul>\n    </div>\n    <div class=\"col-md-4\">\n        <h6>Enlaces</h6>\n    </div>\n  </div>\n  <a href=\"#\" title=\"Inicio\">\n    <span class=\"glyphicon glyphicon-chevron-up\"></span>\n  </a>\n</footer>"
 
 /***/ }),
 
@@ -197,7 +209,7 @@ exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-b
 
 
 // module
-exports.push([module.i, "", "", {"version":3,"sources":[],"names":[],"mappings":"","file":"footer.component.scss","sourceRoot":""}]);
+exports.push([module.i, "li {\n  list-style: none; }\n\n* {\n  font-size: small; }\n", "", {"version":3,"sources":["/Users/bennyfrancodennis/Developer/alinsumos/src/app/footer/footer.component.scss"],"names":[],"mappings":"AAAA;EACI,iBAAgB,EACnB;;AAED;EACI,iBAAgB,EACnB","file":"footer.component.scss","sourcesContent":["li {\n    list-style: none;\n}\n\n* {\n    font-size: small;\n}\n"],"sourceRoot":""}]);
 
 // exports
 
@@ -314,7 +326,7 @@ HeaderComponent = __decorate([
 /***/ "../../../../../src/app/main-content/components/contact/contact.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div id=\"contact\" class=\"container-fluid bg-grey\">\n  <h2 class=\"text-center\">{{ 'CONTACT-SECTION.TITLE' | translate }}</h2>\n  <div class=\"row\">\n    <div class=\"col-sm-8\">\n      <p>{{ 'CONTACT-SECTION.SECTION-MESSAGE' | translate }}</p>\n      <!-- <p><span class=\"glyphicon glyphicon-map-marker\"></span> Carretera internacional México-Nogales. Km 1841 S/N. Parque industrial.\n        Cd. Obregón, Sonora, México.</p>\n      <p><span class=\"glyphicon glyphicon-phone\"></span> +52 (644) 413 99 29</p>\n      <p><span class=\"glyphicon glyphicon-envelope\"></span> recepcion@alinsumos.com</p>-->\n\n      <address>\n          <strong>Alinsumos, S.A. de C.V.</strong><br>\n          Carretera internacional México-Nogales. Km 1841 S/N. Parque industrial.\n          Cd. Obregón, Sonora, México.<br/>\n          <abbr title=\"Teléfono\">T:</abbr> +52 (644) 413 99 29\n        </address>\n      <p>{{ 'CONTACT-SECTION.DIRECTORY-INSTRUCTION' | translate }}</p>\n      <p>\n        <a routerLink=\"/directory\" routerLinkActive=\"active\"  class=\"btn btn-default\" role=\"button\">{{ 'CONTACT-SECTION.DIRECTORY-BUTTON' | translate }}</a>\n      </p>\n    </div>\n    <div class=\"col-sm-4\">\n      <div class=\"row\">\n        <div class=\"col-sm-6 form-group\">\n          <input class=\"form-control\" id=\"name\" name=\"name\" placeholder=\"{{ 'CONTACT-SECTION.CONTACT-FORM.NAME-INPUT' | translate }}\" type=\"text\" required>\n        </div>\n        <div class=\"col-sm-6 form-group\">\n          <input class=\"form-control\" id=\"email\" name=\"email\" placeholder=\"{{ 'CONTACT-SECTION.CONTACT-FORM.EMAIL-INPUT' | translate }}\" type=\"email\" required>\n        </div>\n      </div>\n      <textarea class=\"form-control\" id=\"comments\" name=\"comments\" placeholder=\"{{ 'CONTACT-SECTION.CONTACT-FORM.COMMENT-TEXTAREA' | translate }}\" rows=\"5\"></textarea><br>\n      <div class=\"row\">\n        <div class=\"col-sm-12 form-group\">\n          <button class=\"btn btn-default pull-right\" type=\"submit\">{{ 'CONTACT-SECTION.CONTACT-FORM.SEND_BUTTON' | translate }}</button>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>\n"
+module.exports = "<div id=\"contact\" class=\"container-fluid bg-grey\">\n  <h2 class=\"text-center\">{{ 'CONTACT-SECTION.TITLE' | translate }}</h2>\n  <div class=\"row\">\n    <div class=\"col-sm-8\">\n      <p>{{ 'CONTACT-SECTION.SECTION-MESSAGE' | translate }}</p>\n      <address>\n          <strong>Alinsumos, S.A. de C.V.</strong><br>\n          Carretera internacional México-Nogales. Km 1841 S/N. Parque industrial.\n          Cd. Obregón, Sonora, México.<br/>\n          <abbr title=\"Teléfono\">T:</abbr> +52 (644) 413 99 29\n        </address>\n      <p>{{ 'CONTACT-SECTION.DIRECTORY-INSTRUCTION' | translate }}</p>\n      <p>\n        <a routerLink=\"/directory\" routerLinkActive=\"active\"  class=\"btn btn-default\" role=\"button\">{{ 'CONTACT-SECTION.DIRECTORY-BUTTON' | translate }}</a>\n      </p>\n    </div>\n    <div class=\"col-sm-4\">\n      <div class=\"row\">\n        <div class=\"col-sm-6 form-group\">\n          <input class=\"form-control\" id=\"name\" name=\"name\" placeholder=\"{{ 'CONTACT-SECTION.CONTACT-FORM.NAME-INPUT' | translate }}\" type=\"text\" required>\n        </div>\n        <div class=\"col-sm-6 form-group\">\n          <input class=\"form-control\" id=\"email\" name=\"email\" placeholder=\"{{ 'CONTACT-SECTION.CONTACT-FORM.EMAIL-INPUT' | translate }}\" type=\"email\" required>\n        </div>\n      </div>\n      <textarea class=\"form-control\" id=\"comments\" name=\"comments\" placeholder=\"{{ 'CONTACT-SECTION.CONTACT-FORM.COMMENT-TEXTAREA' | translate }}\" rows=\"5\"></textarea><br>\n      <div class=\"row\">\n        <div class=\"col-sm-12 form-group\">\n          <button class=\"btn btn-default pull-right\" type=\"submit\">{{ 'CONTACT-SECTION.CONTACT-FORM.SEND_BUTTON' | translate }}</button>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>\n"
 
 /***/ }),
 
@@ -404,6 +416,7 @@ module.exports = module.exports.toString();
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return DirectoryComponent; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__services_directory_service__ = __webpack_require__("../../../../../src/app/main-content/services/directory.service.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__("../../../core/@angular/core.es5.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_platform_browser__ = __webpack_require__("../../../platform-browser/@angular/platform-browser.es5.js");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -413,13 +426,19 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
+var __param = (this && this.__param) || function (paramIndex, decorator) {
+    return function (target, key) { decorator(target, key, paramIndex); }
+};
+
 
 
 var DirectoryComponent = (function () {
-    function DirectoryComponent(directory) {
+    function DirectoryComponent(directory, document) {
         this.directory = directory;
+        this.document = document;
     }
     DirectoryComponent.prototype.ngOnInit = function () {
+        this.document.body.scrollTop = 0;
     };
     return DirectoryComponent;
 }());
@@ -430,7 +449,8 @@ DirectoryComponent = __decorate([
         styles: [__webpack_require__("../../../../../src/app/main-content/components/directory/directory.component.scss")],
         providers: [__WEBPACK_IMPORTED_MODULE_0__services_directory_service__["a" /* DirectoryService */]]
     }),
-    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_0__services_directory_service__["a" /* DirectoryService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_0__services_directory_service__["a" /* DirectoryService */]) === "function" && _a || Object])
+    __param(1, Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["B" /* Inject */])(__WEBPACK_IMPORTED_MODULE_2__angular_platform_browser__["b" /* DOCUMENT */])),
+    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_0__services_directory_service__["a" /* DirectoryService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_0__services_directory_service__["a" /* DirectoryService */]) === "function" && _a || Object, Object])
 ], DirectoryComponent);
 
 var _a;
@@ -499,10 +519,250 @@ MapComponent = __decorate([
 
 /***/ }),
 
+/***/ "../../../../../src/app/main-content/components/menu-post/classes/link.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Link; });
+var Link = (function () {
+    function Link(title, link, active) {
+        this.title = title;
+        this.link = link;
+        this.active = active ? active : false;
+    }
+    return Link;
+}());
+
+//# sourceMappingURL=link.js.map
+
+/***/ }),
+
+/***/ "../../../../../src/app/main-content/components/menu-post/menu-post.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<ul class=\"nav nav-pills nav-stacked\">\n  <!-- <li role=\"presentation\" class=\"active\"><a href=\"#\">Home</a></li> -->\n  <li role=\"presentation\" *ngFor=\"let option of menuOptions\" [ngClass]=\"{'active' : option.active}\">\n    <a [routerLink]=\"['/productos/granos/', option.link]\" (click)=\"markAsActive(option.link)\">{{option.title}}</a>\n  </li>\n</ul>\n"
+
+/***/ }),
+
+/***/ "../../../../../src/app/main-content/components/menu-post/menu-post.component.scss":
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(true);
+// imports
+
+
+// module
+exports.push([module.i, ".nav-pills > li.active > a {\n  background-color: #77A23D;\n  color: #FFF; }\n  .nav-pills > li.active > a:focus {\n    background-color: #77A23D; }\n  .nav-pills > li.active > a:hover {\n    background-color: #77A23D; }\n\na {\n  color: #77A23D; }\n", "", {"version":3,"sources":["/Users/bennyfrancodennis/Developer/alinsumos/src/app/main-content/components/menu-post/menu-post.component.scss","/Users/bennyfrancodennis/Developer/alinsumos/src/assets/styles/_general-vars.scss"],"names":[],"mappings":"AAEA;EACI,0BCDiB;EDEjB,YAAW,EAOd;EATD;IAIQ,0BCJa,EDKhB;EALL;IAOQ,0BCPa,EDQhB;;AAGL;EACI,eCZiB,EDapB","file":"menu-post.component.scss","sourcesContent":["@import \"../../../../assets/styles/_general-vars.scss\";\n// .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover\n.nav-pills>li.active>a {\n    background-color: $third-color;\n    color: #FFF;\n    &:focus {\n        background-color: $third-color;\n    }\n    &:hover {\n        background-color: $third-color;\n    }\n}\n\na {\n    color: $third-color;\n}\n","$main-color: #884F20;\n$secondary-color: #FEC32B;\n$third-color: #77A23D;\n$third-color-active: #5a7b2e;\n"],"sourceRoot":""}]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
+
+/***/ }),
+
+/***/ "../../../../../src/app/main-content/components/menu-post/menu-post.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MenuPostComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__services_classes_products_links__ = __webpack_require__("../../../../../src/app/main-content/services/classes/products-links.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__classes_link__ = __webpack_require__("../../../../../src/app/main-content/components/menu-post/classes/link.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_core__ = __webpack_require__("../../../core/@angular/core.es5.js");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+var MenuPostComponent = (function () {
+    function MenuPostComponent() {
+        this.grainsMenu = [
+            new __WEBPACK_IMPORTED_MODULE_1__classes_link__["a" /* Link */]('Maíz forrajero', __WEBPACK_IMPORTED_MODULE_0__services_classes_products_links__["a" /* GrainsLinks */].MAIZ_FORRAJERO, true),
+            new __WEBPACK_IMPORTED_MODULE_1__classes_link__["a" /* Link */]('Maíz tortillero', __WEBPACK_IMPORTED_MODULE_0__services_classes_products_links__["a" /* GrainsLinks */].MAIZ_TORTILLERO),
+            new __WEBPACK_IMPORTED_MODULE_1__classes_link__["a" /* Link */]('Trigo', __WEBPACK_IMPORTED_MODULE_0__services_classes_products_links__["a" /* GrainsLinks */].TRIGO),
+            new __WEBPACK_IMPORTED_MODULE_1__classes_link__["a" /* Link */]('Sorgo', __WEBPACK_IMPORTED_MODULE_0__services_classes_products_links__["a" /* GrainsLinks */].SORGO),
+            new __WEBPACK_IMPORTED_MODULE_1__classes_link__["a" /* Link */]('Semilla de Algodón', __WEBPACK_IMPORTED_MODULE_0__services_classes_products_links__["a" /* GrainsLinks */].SEMILLA_ALGODON),
+            new __WEBPACK_IMPORTED_MODULE_1__classes_link__["a" /* Link */]('Cártamo', __WEBPACK_IMPORTED_MODULE_0__services_classes_products_links__["a" /* GrainsLinks */].CARTAMO)
+        ];
+        this.menuOptions = this.grainsMenu;
+    }
+    MenuPostComponent.prototype.ngOnInit = function () {
+    };
+    MenuPostComponent.prototype.markAsActive = function (link) {
+        this.grainsMenu.forEach(function (menuLink) { return menuLink.active = false; });
+        this.grainsMenu.find(function (finded) { return finded.link === link; }).active = true;
+    };
+    return MenuPostComponent;
+}());
+MenuPostComponent = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_2__angular_core__["o" /* Component */])({
+        selector: 'al-menu-post',
+        template: __webpack_require__("../../../../../src/app/main-content/components/menu-post/menu-post.component.html"),
+        styles: [__webpack_require__("../../../../../src/app/main-content/components/menu-post/menu-post.component.scss")]
+    }),
+    __metadata("design:paramtypes", [])
+], MenuPostComponent);
+
+//# sourceMappingURL=menu-post.component.js.map
+
+/***/ }),
+
+/***/ "../../../../../src/app/main-content/components/post/post.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<h3>{{activeContent.title}}</h3>\n<div class=\"container-fluid\">\n  <div class=\"row\">\n    <div class=\"col-xs-12 col-sm-12 col-md-3\">\n      <img class=\"img-responsive\" alt=\"{{activeContent.title}}\" src=\"{{activeContent.image}}\" />\n    </div>\n    <div class=\"col-xs-12 col-sm-12 col-md-9\">\n      <p>{{activeContent.content}}</p>\n    </div>\n    <br/>\n    <table class=\"table table-striped\">\n      <thead>\n        <tr>\n          <th colspan=\"2\"><p class=\"text-center\">Análisis Típico</p></th>\n        </tr>\n        <tr>\n          <th>Determinación</th>\n          <th>Valor</th>\n        </tr>\n      </thead>\n      <tbody>\n        <tr *ngFor=\"let row of activeContent.table.body\">\n          <th scope=\"row\">{{row.cellOne}}</th>\n          <td>{{row.cellTwo}}</td>\n        </tr>\n      </tbody>\n    </table>\n  </div>\n</div>\n"
+
+/***/ }),
+
+/***/ "../../../../../src/app/main-content/components/post/post.component.scss":
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(true);
+// imports
+
+
+// module
+exports.push([module.i, "", "", {"version":3,"sources":[],"names":[],"mappings":"","file":"post.component.scss","sourceRoot":""}]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
+
+/***/ }),
+
+/***/ "../../../../../src/app/main-content/components/post/post.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PostComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__("../../../platform-browser/@angular/platform-browser.es5.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_router__ = __webpack_require__("../../../router/@angular/router.es5.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__services_products_information_service__ = __webpack_require__("../../../../../src/app/main-content/services/products-information.service.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_core__ = __webpack_require__("../../../core/@angular/core.es5.js");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+var __param = (this && this.__param) || function (paramIndex, decorator) {
+    return function (target, key) { decorator(target, key, paramIndex); }
+};
+
+
+
+
+var PostComponent = (function () {
+    function PostComponent(products, route, document) {
+        this.products = products;
+        this.route = route;
+        this.document = document;
+    }
+    PostComponent.prototype.ngOnInit = function () {
+        var _this = this;
+        this.paramsSubscription = this.route.params
+            .subscribe(function (params) {
+            _this.activeContent = _this.products.getProduct(params['product']);
+            _this.document.body.scrollTop = 0;
+        });
+    };
+    PostComponent.prototype.ngOnDestroy = function () {
+        this.paramsSubscription.unsubscribe();
+    };
+    return PostComponent;
+}());
+PostComponent = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_3__angular_core__["o" /* Component */])({
+        selector: 'al-post',
+        template: __webpack_require__("../../../../../src/app/main-content/components/post/post.component.html"),
+        styles: [__webpack_require__("../../../../../src/app/main-content/components/post/post.component.scss")],
+        providers: [__WEBPACK_IMPORTED_MODULE_2__services_products_information_service__["a" /* ProductsInformationService */]]
+    }),
+    __param(2, Object(__WEBPACK_IMPORTED_MODULE_3__angular_core__["B" /* Inject */])(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["b" /* DOCUMENT */])),
+    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_2__services_products_information_service__["a" /* ProductsInformationService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__services_products_information_service__["a" /* ProductsInformationService */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1__angular_router__["a" /* ActivatedRoute */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__angular_router__["a" /* ActivatedRoute */]) === "function" && _b || Object, Object])
+], PostComponent);
+
+var _a, _b;
+//# sourceMappingURL=post.component.js.map
+
+/***/ }),
+
+/***/ "../../../../../src/app/main-content/components/products/components/grains/grains.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<div id=\"productos-granos\" class=\"container-fluid\">\n    <div class=\"page-header\">\n        <h1>Granos</h1>\n    </div>\n    <div class=\"row\">\n        <div class=\"col-sm-4 col-md-2\">\n            <al-menu-post></al-menu-post>\n        </div>\n        <div class=\"col-sm-8 col-md-10\">\n          <router-outlet></router-outlet>\n        </div>\n    </div>\n</div>\n"
+
+/***/ }),
+
+/***/ "../../../../../src/app/main-content/components/products/components/grains/grains.component.scss":
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(true);
+// imports
+
+
+// module
+exports.push([module.i, "", "", {"version":3,"sources":[],"names":[],"mappings":"","file":"grains.component.scss","sourceRoot":""}]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
+
+/***/ }),
+
+/***/ "../../../../../src/app/main-content/components/products/components/grains/grains.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return GrainsComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/@angular/core.es5.js");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var GrainsComponent = (function () {
+    function GrainsComponent() {
+    }
+    return GrainsComponent;
+}());
+GrainsComponent = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["o" /* Component */])({
+        selector: 'al-grains',
+        template: __webpack_require__("../../../../../src/app/main-content/components/products/components/grains/grains.component.html"),
+        styles: [__webpack_require__("../../../../../src/app/main-content/components/products/components/grains/grains.component.scss")]
+    }),
+    __metadata("design:paramtypes", [])
+], GrainsComponent);
+
+//# sourceMappingURL=grains.component.js.map
+
+/***/ }),
+
 /***/ "../../../../../src/app/main-content/components/products/products.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div id=\"products\" class=\"container-fluid text-center\">\n  <h2>Productos</h2><br>\n  <h4>Familia de productos</h4>\n  <div class=\"col-xs-6 col-md-3\" *ngFor=\"let product of products.productsInformation\">\n    <a href=\"#\" class=\"thumbnail\">\n      <img src=\"{{product.image}}\" alt=\"\">\n    </a>\n    <div class=\"caption\">\n      <h3>{{product.title}}</h3>\n    </div>\n  </div>\n</div>\n"
+module.exports = "<div id=\"products\" class=\"container-fluid text-center\">\n  <h2>Productos</h2><br>\n  <h4>Familia de productos</h4>\n  <div class=\"col-xs-6 col-md-3\" *ngFor=\"let product of products.productsInformation\">\n    <a [routerLink]=\"['/productos/'+product.link]\" class=\"thumbnail\">\n      <img src=\"{{product.image}}\" alt=\"\">\n    </a>\n    <div class=\"caption\">\n      <h3>{{product.title}}</h3>\n    </div>\n  </div>\n</div>\n"
 
 /***/ }),
 
@@ -568,7 +828,7 @@ var _a;
 /***/ "../../../../../src/app/main-content/components/services/services.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div id=\"services\" class=\"container-fluid text-center\">\n  <h2>Servicios</h2>\n  <h4>Ofrecemos</h4>\n  <br>\n  <div class=\"row\">\n    <div class=\"col-sm-6 col-md-4\" *ngFor=\"let service of services.servicesInformationArray\">\n      <div class=\"thumbnail\">\n        <img class=\"img-rounded\" src=\"{{service.image}}\" alt=\"\">\n        <div class=\"caption\">\n          <h3>{{service.title}}</h3>\n          <p>{{service.content | truncateText:277}}\n            <p>\n              <a href=\"#\" class=\"btn btn-default\" role=\"button\">Ver más</a>\n            </p>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>\n"
+module.exports = "<div id=\"services\" class=\"container-fluid text-center\">\n  <h2>Servicios</h2>\n  <h4>Ofrecemos</h4>\n  <br>\n  <div class=\"row\">\n    <div class=\"col-sm-6 col-md-4\" *ngFor=\"let service of services.servicesInformationArray\">\n      <div class=\"thumbnail\">\n        <img class=\"img-rounded\" src=\"{{service.image}}\" alt=\"\">\n        <div class=\"caption\">\n          <h3>{{service.title}}</h3>\n          <p>{{service.content | truncateText:260}}\n            <p>\n              <a href=\"#\" class=\"btn btn-default\" role=\"button\">Ver más</a>\n            </p>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>\n"
 
 /***/ }),
 
@@ -718,16 +978,159 @@ var ContactCard = (function () {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ContentPost; });
 var ContentPost = (function () {
-    function ContentPost(title, content, image) {
+    function ContentPost(title, content, image, link, table) {
         this.imagesRoute = 'assets/images/';
         this.title = title;
         this.content = content ? content : '';
-        this.image = image ? this.imagesRoute + image : '';
+        this.image = this.imageOrigin(image);
+        this.link = link;
+        this.table = table;
     }
+    ContentPost.prototype.imageOrigin = function (image) {
+        if (image && !image.includes('http')) {
+            return this.imagesRoute + image;
+        }
+        else if (image && image.includes('http')) {
+            return image;
+        }
+        else {
+            return '';
+        }
+    };
     return ContentPost;
 }());
 
 //# sourceMappingURL=content-post.js.map
+
+/***/ }),
+
+/***/ "../../../../../src/app/main-content/services/classes/content-table.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ContentTable; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return Row; });
+var ContentTable = (function () {
+    function ContentTable(tableBody) {
+        this.body = tableBody;
+    }
+    return ContentTable;
+}());
+
+var Row = (function () {
+    function Row(one, two) {
+        this.cellOne = one;
+        this.cellTwo = two;
+    }
+    return Row;
+}());
+
+//# sourceMappingURL=content-table.js.map
+
+/***/ }),
+
+/***/ "../../../../../src/app/main-content/services/classes/products-links.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return GrainsLinks; });
+var GrainsLinks = (function () {
+    function GrainsLinks() {
+    }
+    return GrainsLinks;
+}());
+
+GrainsLinks.MAIZ_FORRAJERO = 'maiz-forrajero';
+GrainsLinks.MAIZ_TORTILLERO = 'maiz-tortillero';
+GrainsLinks.TRIGO = 'trigo';
+GrainsLinks.SORGO = 'sorgo';
+GrainsLinks.SEMILLA_ALGODON = 'semilla-algodon';
+GrainsLinks.CARTAMO = 'cartamo';
+//# sourceMappingURL=products-links.js.map
+
+/***/ }),
+
+/***/ "../../../../../src/app/main-content/services/data-services/grains.service.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return GrainsService; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__classes_products_links__ = __webpack_require__("../../../../../src/app/main-content/services/classes/products-links.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__classes_content_table__ = __webpack_require__("../../../../../src/app/main-content/services/classes/content-table.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__classes_content_post__ = __webpack_require__("../../../../../src/app/main-content/services/classes/content-post.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_core__ = __webpack_require__("../../../core/@angular/core.es5.js");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+var GrainsService = (function () {
+    function GrainsService() {
+        /********
+         * Tables
+         ********/
+        this.maizForrajeroTable = new __WEBPACK_IMPORTED_MODULE_1__classes_content_table__["a" /* ContentTable */]([
+            new __WEBPACK_IMPORTED_MODULE_1__classes_content_table__["b" /* Row */]('PROTEINA', '9.4%'),
+            new __WEBPACK_IMPORTED_MODULE_1__classes_content_table__["b" /* Row */]('GRASA', '4.7%'),
+            new __WEBPACK_IMPORTED_MODULE_1__classes_content_table__["b" /* Row */]('FIBRA', '4.5%'),
+            new __WEBPACK_IMPORTED_MODULE_1__classes_content_table__["b" /* Row */]('CALCIO', '7 Mg')
+        ]);
+        this.maizTortilleroTable = new __WEBPACK_IMPORTED_MODULE_1__classes_content_table__["a" /* ContentTable */]([
+            new __WEBPACK_IMPORTED_MODULE_1__classes_content_table__["b" /* Row */]('PROTEINA', '9.4%'),
+            new __WEBPACK_IMPORTED_MODULE_1__classes_content_table__["b" /* Row */]('GRASA', '4.7%'),
+            new __WEBPACK_IMPORTED_MODULE_1__classes_content_table__["b" /* Row */]('FIBRA', '4.5%'),
+            new __WEBPACK_IMPORTED_MODULE_1__classes_content_table__["b" /* Row */]('CALCIO', '7 Mg')
+        ]);
+        this.trigoTable = new __WEBPACK_IMPORTED_MODULE_1__classes_content_table__["a" /* ContentTable */]([
+            new __WEBPACK_IMPORTED_MODULE_1__classes_content_table__["b" /* Row */]('PROTEINA', '15.4%'),
+            new __WEBPACK_IMPORTED_MODULE_1__classes_content_table__["b" /* Row */]('GRASA', '1.9%'),
+            new __WEBPACK_IMPORTED_MODULE_1__classes_content_table__["b" /* Row */]('FIBRA', '12.2%'),
+            new __WEBPACK_IMPORTED_MODULE_1__classes_content_table__["b" /* Row */]('CALCIO', '25 Mg')
+        ]);
+        this.sorgoTable = new __WEBPACK_IMPORTED_MODULE_1__classes_content_table__["a" /* ContentTable */]([
+            new __WEBPACK_IMPORTED_MODULE_1__classes_content_table__["b" /* Row */]('PROTEINA', '7.2%'),
+            new __WEBPACK_IMPORTED_MODULE_1__classes_content_table__["b" /* Row */]('GRASA', '3.9%'),
+            new __WEBPACK_IMPORTED_MODULE_1__classes_content_table__["b" /* Row */]('FIBRA', '2.7%'),
+            new __WEBPACK_IMPORTED_MODULE_1__classes_content_table__["b" /* Row */]('CALCIO', '5 Mg')
+        ]);
+        this.semillaDeAlgodonTable = new __WEBPACK_IMPORTED_MODULE_1__classes_content_table__["a" /* ContentTable */]([
+            new __WEBPACK_IMPORTED_MODULE_1__classes_content_table__["b" /* Row */]('PROTEINA', '21.0%'),
+            new __WEBPACK_IMPORTED_MODULE_1__classes_content_table__["b" /* Row */]('GRASA', '17.0%'),
+            new __WEBPACK_IMPORTED_MODULE_1__classes_content_table__["b" /* Row */]('FIBRA', '24.0%'),
+            new __WEBPACK_IMPORTED_MODULE_1__classes_content_table__["b" /* Row */]('CALCIO', '0.14%')
+        ]);
+        this.cartamoTable = new __WEBPACK_IMPORTED_MODULE_1__classes_content_table__["a" /* ContentTable */]([
+            new __WEBPACK_IMPORTED_MODULE_1__classes_content_table__["b" /* Row */]('PROTEINA', '18.0%'),
+            new __WEBPACK_IMPORTED_MODULE_1__classes_content_table__["b" /* Row */]('GRASA', '16.9%'),
+            new __WEBPACK_IMPORTED_MODULE_1__classes_content_table__["b" /* Row */]('FIBRA', '12.7%'),
+            new __WEBPACK_IMPORTED_MODULE_1__classes_content_table__["b" /* Row */]('CALCIO', '5 Mg')
+        ]);
+        /********
+          * Information
+          ********/
+        this.maizForrajero = new __WEBPACK_IMPORTED_MODULE_2__classes_content_post__["a" /* ContentPost */]('Maíz Forrajero', "El ma\u00EDz como parte de las mezclas para alimento destaca por su riqueza en hidratos de carbono proporcionados por su abundante almid\u00F3n.\n    Como consecuencia es un alimento muy saciable y muy completo, posee una proporci\u00F3n\n    muy elevada de prote\u00EDnas y aunque no todas son asimilables posee tambi\u00E9n porcentajes muy elevados de potasio hierro y fosforo.", 'products/maiz-forrajero.jpg', __WEBPACK_IMPORTED_MODULE_0__classes_products_links__["a" /* GrainsLinks */].MAIZ_FORRAJERO, this.maizForrajeroTable);
+        this.maizTortillero = new __WEBPACK_IMPORTED_MODULE_2__classes_content_post__["a" /* ContentPost */]('Maíz Tortillero', "El Ma\u00EDz utilizado para alimentaci\u00F3n humana es fundamental,\n    capaz de saciar el hambre durante un tiempo prolongado sin\n    tener que recurrir a otros alimentos menos saludables para el organismo,\n    se ha comprobado que las dietas que incluyen ma\u00EDz permiten disminuir de\n    peso de manera adecuada.", 'http://via.placeholder.com/200x200', __WEBPACK_IMPORTED_MODULE_0__classes_products_links__["a" /* GrainsLinks */].MAIZ_TORTILLERO, this.maizTortilleroTable);
+        this.trigo = new __WEBPACK_IMPORTED_MODULE_2__classes_content_post__["a" /* ContentPost */]('Trigo', "El trigo es uno de los alimentos m\u00E1s completos tanto para la alimentaci\u00F3n Humana\n    como pecuaria, contiene una cantidad muy elevada de minerales como potasio, fosforo,\n    hierro, zinc entre otros, existen dos grupos principales, los trigos cristalinos o\n    duros y los trigos harineros o blandos usados en la industria harinera y de pastas.", 'http://via.placeholder.com/200x200', __WEBPACK_IMPORTED_MODULE_0__classes_products_links__["a" /* GrainsLinks */].TRIGO, this.trigoTable);
+        this.sorgo = new __WEBPACK_IMPORTED_MODULE_2__classes_content_post__["a" /* ContentPost */]('Sorgo', "El sorgo forrajero es un cultivo que se adapta bien a zonas en\n    las cuales el ma\u00EDz se ve limitado en su producci\u00F3n y calidad,\n    debido a problemas clim\u00E1ticos (d\u00E9ficit de lluvias) y de suelos (baja fertilidad).\n    Este presenta un valor nutritivo inferior al del ma\u00EDz, el sorgo se usa para mas\n    com\u00FAnmente la alimentaci\u00F3n Animal como componente de la raci\u00F3n, en un 50% o m\u00E1s,\n    previo su molido o quebrado de su grano, proceso que aumenta la digestibilidad de\n    la materia seca de la ingesta total.", 'http://via.placeholder.com/200x200', __WEBPACK_IMPORTED_MODULE_0__classes_products_links__["a" /* GrainsLinks */].SORGO, this.sorgoTable);
+        this.algodon = new __WEBPACK_IMPORTED_MODULE_2__classes_content_post__["a" /* ContentPost */]('Semilla de algodón', "Semilla de Algod\u00F3n es un recurso abundante y de bajo costo para la alimentaci\u00F3n de bovinos\n    y constituye una fuente alta en prote\u00EDna, fibra, grasa y energ\u00EDa.", 'http://via.placeholder.com/200x200', __WEBPACK_IMPORTED_MODULE_0__classes_products_links__["a" /* GrainsLinks */].SEMILLA_ALGODON, this.semillaDeAlgodonTable);
+        this.cartamo = new __WEBPACK_IMPORTED_MODULE_2__classes_content_post__["a" /* ContentPost */]('Cártamo', "Originariamente, el c\u00E1rtamo fue cultivado por sus flores, las cuales fueron utilizadas para hacer\n    pigmentos rojos y amarillos para la coloraci\u00F3n de prendas de vestir y alimentos. Actualmente,\n    este cultivo provee de aceite, jab\u00F3n, y harina de extracci\u00F3n rica en prote\u00EDnas y fibra.\n    Su aceite se usa tambi\u00E9n para la prevenci\u00F3n de enfermedades cardiovasculares por lo que es muy apreciado\n    en los restaurantes de alta cocina gracias a estas propiedades.", 'http://via.placeholder.com/200x200', __WEBPACK_IMPORTED_MODULE_0__classes_products_links__["a" /* GrainsLinks */].CARTAMO, this.cartamoTable);
+    }
+    return GrainsService;
+}());
+GrainsService = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_3__angular_core__["C" /* Injectable */])(),
+    __metadata("design:paramtypes", [])
+], GrainsService);
+
+//# sourceMappingURL=grains.service.js.map
 
 /***/ }),
 
@@ -792,8 +1195,10 @@ DirectoryService = __decorate([
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ProductsInformationService; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__classes_content_post__ = __webpack_require__("../../../../../src/app/main-content/services/classes/content-post.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__("../../../core/@angular/core.es5.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__classes_products_links__ = __webpack_require__("../../../../../src/app/main-content/services/classes/products-links.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__data_services_grains_service__ = __webpack_require__("../../../../../src/app/main-content/services/data-services/grains.service.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__classes_content_post__ = __webpack_require__("../../../../../src/app/main-content/services/classes/content-post.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_core__ = __webpack_require__("../../../core/@angular/core.es5.js");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -805,21 +1210,42 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 
 
+
+
 var ProductsInformationService = (function () {
-    function ProductsInformationService() {
-        this.grains = new __WEBPACK_IMPORTED_MODULE_0__classes_content_post__["a" /* ContentPost */]('Granos', '', 'products/trigo-manos.jpg');
-        this.pastas = new __WEBPACK_IMPORTED_MODULE_0__classes_content_post__["a" /* ContentPost */]('Pastas', '', 'products/pasta.jpg');
-        this.flour = new __WEBPACK_IMPORTED_MODULE_0__classes_content_post__["a" /* ContentPost */]('Harinas', '', 'products/harina.jpg');
-        this.oils = new __WEBPACK_IMPORTED_MODULE_0__classes_content_post__["a" /* ContentPost */]('Grasas y aceites', '', 'products/grasas-aceites.jpg');
+    function ProductsInformationService(grainService) {
+        this.grainService = grainService;
+        this.grains = new __WEBPACK_IMPORTED_MODULE_2__classes_content_post__["a" /* ContentPost */]('Granos', '', 'products/trigo-manos.jpg', 'granos');
+        this.pastas = new __WEBPACK_IMPORTED_MODULE_2__classes_content_post__["a" /* ContentPost */]('Pastas', '', 'products/pasta.jpg');
+        this.flour = new __WEBPACK_IMPORTED_MODULE_2__classes_content_post__["a" /* ContentPost */]('Harinas', '', 'products/harina.jpg');
+        this.oils = new __WEBPACK_IMPORTED_MODULE_2__classes_content_post__["a" /* ContentPost */]('Grasas y aceites', '', 'products/grasas-aceites.jpg');
         this.productsInformation = [this.grains, this.pastas, this.flour, this.oils];
     }
+    ProductsInformationService.prototype.getProduct = function (route) {
+        switch (route) {
+            case __WEBPACK_IMPORTED_MODULE_0__classes_products_links__["a" /* GrainsLinks */].MAIZ_FORRAJERO:
+                return this.grainService.maizForrajero;
+            case __WEBPACK_IMPORTED_MODULE_0__classes_products_links__["a" /* GrainsLinks */].MAIZ_TORTILLERO:
+                return this.grainService.maizTortillero;
+            case __WEBPACK_IMPORTED_MODULE_0__classes_products_links__["a" /* GrainsLinks */].TRIGO:
+                return this.grainService.trigo;
+            case __WEBPACK_IMPORTED_MODULE_0__classes_products_links__["a" /* GrainsLinks */].SORGO:
+                return this.grainService.sorgo;
+            case __WEBPACK_IMPORTED_MODULE_0__classes_products_links__["a" /* GrainsLinks */].SEMILLA_ALGODON:
+                return this.grainService.algodon;
+            case __WEBPACK_IMPORTED_MODULE_0__classes_products_links__["a" /* GrainsLinks */].CARTAMO:
+                return this.grainService.cartamo;
+            default: return null;
+        }
+    };
     return ProductsInformationService;
 }());
 ProductsInformationService = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["C" /* Injectable */])(),
-    __metadata("design:paramtypes", [])
+    Object(__WEBPACK_IMPORTED_MODULE_3__angular_core__["C" /* Injectable */])(),
+    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__data_services_grains_service__["a" /* GrainsService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__data_services_grains_service__["a" /* GrainsService */]) === "function" && _a || Object])
 ], ProductsInformationService);
 
+var _a;
 //# sourceMappingURL=products-information.service.js.map
 
 /***/ }),
@@ -875,7 +1301,7 @@ ServicesInformationService = __decorate([
 /***/ "../../../../../src/app/menu/menu.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<nav class=\"navbar navbar-default navbar-fixed-top\" [@navBarState]=\"navStatus\">\n  <div class=\"container\">\n    <div class=\"navbar-header\">\n      <button type=\"button\" class=\"navbar-toggle\" data-toggle=\"collapse\" data-target=\"#myNavbar\">\n        <span class=\"icon-bar\"></span>\n        <span class=\"icon-bar\"></span>\n        <span class=\"icon-bar\"></span>\n      </button>\n      <a class=\"navbar-brand\" href=\"#myPage\">\n        <img src=\"assets/images/imagotipo_web.svg\" alt=\"Alinsumos\"/>\n      </a>\n    </div>\n    <div class=\"collapse navbar-collapse\" id=\"myNavbar\">\n      <ul class=\"nav navbar-nav navbar-right\">\n        <li><a href=\"#about\">{{ 'MENU.ABOUT-US' | translate }}</a></li>\n        <li><a href=\"#services\">{{ 'MENU.SERVICES' | translate }}</a></li>\n        <li><a href=\"#products\">{{ 'MENU.PRODUCTS' | translate }}</a></li>\n        <li><a href=\"#contact\">{{ 'MENU.CONTACT-US' | translate }}</a></li>\n      </ul>\n    </div>\n  </div>\n</nav>\n"
+module.exports = "<nav class=\"navbar navbar-default navbar-fixed-top\" [@navBarState]=\"navStatus\">\n  <div class=\"container\">\n    <div class=\"navbar-header\">\n      <button type=\"button\" class=\"navbar-toggle\" data-toggle=\"collapse\" data-target=\"#myNavbar\">\n        <span class=\"icon-bar\"></span>\n        <span class=\"icon-bar\"></span>\n        <span class=\"icon-bar\"></span>\n      </button>\n      <a class=\"navbar-brand\" href=\"/\">\n        <img src=\"assets/images/imagotipo_web.svg\" alt=\"Alinsumos\"/>\n      </a>\n    </div>\n    <div class=\"collapse navbar-collapse\" id=\"myNavbar\">\n      <ul class=\"nav navbar-nav navbar-right\">\n          <li><a href=\"/\">{{ 'MENU.HOME' | translate }}</a></li>\n        <li><a href=\"#about\">{{ 'MENU.ABOUT-US' | translate }}</a></li>\n        <li><a href=\"#services\">{{ 'MENU.SERVICES' | translate }}</a></li>\n        <li><a href=\"#products\">{{ 'MENU.PRODUCTS' | translate }}</a></li>\n        <li><a href=\"#contact\">{{ 'MENU.CONTACT-US' | translate }}</a></li>\n      </ul>\n    </div>\n  </div>\n</nav>\n"
 
 /***/ }),
 
@@ -930,11 +1356,11 @@ var MenuComponent = (function () {
         this.navStatus = 'default';
         this.navIsFixed = false;
         this.navIsOutOfIndex = false;
-        this.router.events.subscribe(function (routerEvents) {
-            console.log(routerEvents.url);
-            if (routerEvents.url.indexOf('#') <= 0) {
+        this.routerEvent = this.router.events.subscribe(function (routerEvents) {
+            if (routerEvents.url.indexOf('#') <= 0 && routerEvents.url !== '/') {
                 _this.navIsOutOfIndex = true;
                 _this.navStatus = 'scrolled';
+                _this.navIsFixed = true;
             }
             else {
                 _this.navIsOutOfIndex = false;
@@ -951,6 +1377,9 @@ var MenuComponent = (function () {
             this.navStatus = 'default';
             this.navIsFixed = false;
         }
+    };
+    MenuComponent.prototype.ngOnDestroy = function () {
+        this.routerEvent.unsubscribe();
     };
     return MenuComponent;
 }());
@@ -983,7 +1412,7 @@ MenuComponent = __decorate([
         ]
     }),
     __param(0, Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["B" /* Inject */])(__WEBPACK_IMPORTED_MODULE_2__angular_platform_browser__["b" /* DOCUMENT */])),
-    __metadata("design:paramtypes", [Object, typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_0__angular_router__["a" /* Router */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_0__angular_router__["a" /* Router */]) === "function" && _a || Object])
+    __metadata("design:paramtypes", [Object, typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_0__angular_router__["b" /* Router */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_0__angular_router__["b" /* Router */]) === "function" && _a || Object])
 ], MenuComponent);
 
 var _a;
@@ -1029,11 +1458,13 @@ TruncateTextPipe = __decorate([
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return RoutingModule; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__main_content_components_directory_directory_component__ = __webpack_require__("../../../../../src/app/main-content/components/directory/directory.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__main_content_main_content_component__ = __webpack_require__("../../../../../src/app/main-content/main-content.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_core__ = __webpack_require__("../../../core/@angular/core.es5.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_common__ = __webpack_require__("../../../common/@angular/common.es5.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_router__ = __webpack_require__("../../../router/@angular/router.es5.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__main_content_components_post_post_component__ = __webpack_require__("../../../../../src/app/main-content/components/post/post.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__main_content_components_products_components_grains_grains_component__ = __webpack_require__("../../../../../src/app/main-content/components/products/components/grains/grains.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__main_content_components_directory_directory_component__ = __webpack_require__("../../../../../src/app/main-content/components/directory/directory.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__main_content_main_content_component__ = __webpack_require__("../../../../../src/app/main-content/main-content.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_core__ = __webpack_require__("../../../core/@angular/core.es5.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__angular_common__ = __webpack_require__("../../../common/@angular/common.es5.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__angular_router__ = __webpack_require__("../../../router/@angular/router.es5.js");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1045,9 +1476,20 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
+
+
 var appRoutes = [
-    { path: '', component: __WEBPACK_IMPORTED_MODULE_1__main_content_main_content_component__["a" /* MainContentComponent */] },
-    { path: 'directory', component: __WEBPACK_IMPORTED_MODULE_0__main_content_components_directory_directory_component__["a" /* DirectoryComponent */] },
+    { path: '', component: __WEBPACK_IMPORTED_MODULE_3__main_content_main_content_component__["a" /* MainContentComponent */] },
+    { path: 'directory', component: __WEBPACK_IMPORTED_MODULE_2__main_content_components_directory_directory_component__["a" /* DirectoryComponent */] },
+    { path: 'productos/granos',
+        redirectTo: '/productos/granos/maiz-forrajero',
+        pathMatch: 'full'
+    },
+    {
+        path: 'productos/granos', component: __WEBPACK_IMPORTED_MODULE_1__main_content_components_products_components_grains_grains_component__["a" /* GrainsComponent */], children: [
+            { path: ':product', component: __WEBPACK_IMPORTED_MODULE_0__main_content_components_post_post_component__["a" /* PostComponent */] }
+        ]
+    }
 ];
 var RoutingModule = (function () {
     function RoutingModule() {
@@ -1055,14 +1497,14 @@ var RoutingModule = (function () {
     return RoutingModule;
 }());
 RoutingModule = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_2__angular_core__["M" /* NgModule */])({
+    Object(__WEBPACK_IMPORTED_MODULE_4__angular_core__["M" /* NgModule */])({
         imports: [
-            __WEBPACK_IMPORTED_MODULE_3__angular_common__["b" /* CommonModule */],
-            __WEBPACK_IMPORTED_MODULE_4__angular_router__["b" /* RouterModule */].forRoot(appRoutes)
+            __WEBPACK_IMPORTED_MODULE_5__angular_common__["b" /* CommonModule */],
+            __WEBPACK_IMPORTED_MODULE_6__angular_router__["c" /* RouterModule */].forRoot(appRoutes)
         ],
         declarations: [],
         exports: [
-            __WEBPACK_IMPORTED_MODULE_4__angular_router__["b" /* RouterModule */]
+            __WEBPACK_IMPORTED_MODULE_6__angular_router__["c" /* RouterModule */]
         ]
     })
 ], RoutingModule);
